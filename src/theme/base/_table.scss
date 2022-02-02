@@ -1,0 +1,14 @@
+table {
+    width: 100%;
+}
+
+caption {
+    text-align: left;
+}
+
+th,
+td {
+    font-weight: $font-weight-normal;
+    text-align: left;
+    vertical-align: top;
+}

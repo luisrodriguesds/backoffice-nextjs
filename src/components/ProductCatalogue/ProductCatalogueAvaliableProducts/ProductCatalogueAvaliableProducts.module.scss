@@ -1,0 +1,52 @@
+.tittle {
+  font-family: 'Vodafone Rg';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+  margin: 0 !important;
+  padding: 15px 15px 0 15px !important;
+}
+.divAvbProd {
+  max-height: 65vh;
+  overflow-y: scroll;
+}
+
+.itemAvbProd {
+  border-bottom: 1px solid#CECECE;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.avbProd {
+  font-family: 'Vodafone Lt';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  margin: 10px 15px;
+}
+
+.whiteButton {
+  background-color: #fff;
+  font-family: 'Vodafone Rg';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 3px 20px;
+  margin: 0 10px;
+  text-align: center;
+  color: #333333;
+  border: 1px solid black;
+  border-radius: 8px;
+}

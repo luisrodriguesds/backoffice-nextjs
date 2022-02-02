@@ -1,0 +1,10 @@
+@each $vf-font-family, $vf-font-path in $font-list-vodafone {
+    @font-face {
+        font-family: $vf-font-family;
+        src: url($vf-font-path + ".eot");
+        src: url($vf-font-path + ".eot?#ie-fix") format("embedded-opentype"),
+        url($vf-font-path + ".woff") format("woff");
+        font-style: normal;
+        font-weight: 400;
+    }
+}

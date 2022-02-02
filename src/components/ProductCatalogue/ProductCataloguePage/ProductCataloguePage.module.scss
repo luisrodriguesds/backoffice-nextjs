@@ -1,0 +1,66 @@
+@import url(../../../theme/font.scss);
+
+.centerPage {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pageContainer {
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.gridTables {
+  max-height: 55vh;
+}
+
+.pageTittle {
+  margin: 0 0 20px 0;
+  font-family: 'Vodafone Rg';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.gridContainer {
+  flex-wrap: nowrap !important;
+  min-height: 80vh;
+}
+
+.gridItem {
+  width: calc(50% - 10px);
+  background-color: #fff;
+  margin: 20px 0 20px 10px !important;
+  padding: 0 10px 20px 20px;
+  border-radius: 8px;
+}
+
+.actionsGrid {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  white-space: nowrap;
+  padding-left: 20px;
+}
+
+.buttonGrid {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  white-space: nowrap;
+
+  button {
+    margin-left: 20px;
+  }
+}

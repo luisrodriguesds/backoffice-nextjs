@@ -1,0 +1,58 @@
+.container {
+  padding: 20px 0;
+}
+
+.tittle {
+  font-family: 'Vodafone Rg';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+  margin: 0 0 20px 0 !important;
+  padding: 15px 15px 0 15px !important;
+}
+
+.table {
+  th {
+    background-color: #fff;
+  }
+  tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  tr:nth-child(even) {
+    background-color: #fff;
+  }
+}
+
+.tableTitle {
+  font-family: Vodafone Rg;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.tableCell {
+  font-family: 'Vodafone Lt';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  margin: 0;
+}
+
+.tableContainer {
+  box-shadow: none !important;
+  max-height: 30vh !important;
+}

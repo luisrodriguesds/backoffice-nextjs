@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Vodafone Lt';
+    src: url('./fonts/VodafoneLt-Regular.eot');
+    src: url('./fonts/VodafoneLt-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/VodafoneLt-Regular.woff2') format('woff2'),
+        url('./fonts/VodafoneLt-Regular.woff') format('woff'),
+        url('./fonts/VodafoneLt-Regular.ttf') format('truetype'),
+        url('./fonts/VodafoneLt-Regular.svg#VodafoneLt-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vodafone ExB';
+    src: url('./fonts/VodafoneExB-Regular.eot');
+    src: url('./fonts/VodafoneExB-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/VodafoneExB-Regular.woff2') format('woff2'),
+        url('./fonts/VodafoneExB-Regular.woff') format('woff'),
+        url('./fonts/VodafoneExB-Regular.ttf') format('truetype'),
+        url('./fonts/VodafoneExB-Regular.svg#VodafoneExB-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vodafone Rg';
+    src: url('./fonts/VodafoneRg-Regular.eot');
+    src: url('./fonts/VodafoneRg-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/VodafoneRg-Regular.woff2') format('woff2'),
+        url('./fonts/VodafoneRg-Regular.woff') format('woff'),
+        url('./fonts/VodafoneRg-Regular.ttf') format('truetype'),
+        url('./fonts/VodafoneRg-Regular.svg#VodafoneRg-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vodafone Rg';
+    src: url('./fonts/VodafoneRg-Bold.eot');
+    src: url('./fonts/VodafoneRg-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/VodafoneRg-Bold.woff2') format('woff2'),
+        url('./fonts/VodafoneRg-Bold.woff') format('woff'),
+        url('./fonts/VodafoneRg-Bold.ttf') format('truetype'),
+        url('./fonts/VodafoneRg-Bold.svg#VodafoneRg-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}

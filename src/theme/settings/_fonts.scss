@@ -1,0 +1,14 @@
+$font-path: "../assets/fonts/";
+
+$font-vodafone-regular: "VodafoneRegular";
+$font-path-vodafone-regular: $font-path + "vodafone/vodafone-regular";
+
+$font-vodafone-regular-bold: "VodafoneRegularBold";
+$font-path-vodafone-regular-bold: $font-path + "vodafone/vodafone-bold";
+
+$font-family-sans-serif: $font-vodafone-regular, Helvetica, Arial, sans-serif;
+$font-family-serif: Georgia, "Times New Roman", Times, serif;
+$font-family-monospace: "Fira Mono", Menlo, Monaco, Consolas, "Courier New", monospace;
+
+$font-list-vodafone: ($font-vodafone-regular, $font-path-vodafone-regular),
+                     ($font-vodafone-regular-bold, $font-path-vodafone-regular-bold);

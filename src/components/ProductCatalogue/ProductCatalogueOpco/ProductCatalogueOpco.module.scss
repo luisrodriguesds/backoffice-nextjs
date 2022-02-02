@@ -1,0 +1,35 @@
+
+.container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.labelSelectOpco {
+  font-size: 18px !important;
+  margin: 10px 0 12px 0 !important;
+  font-family: 'Vodafone Rg' !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  line-height: 18px !important;
+  color: #333333 !important;
+  display: block !important;
+}
+
+.opcoInput {
+  padding-right: 14px;
+}
+
+.autocomplete {
+  & div[class*='MuiOutlinedInput-root'] {
+    padding: 1px 6px !important;
+  }
+
+  legend {
+    display: none !important;
+  }
+
+  fieldset {
+    top: 0 !important;
+  }
+}

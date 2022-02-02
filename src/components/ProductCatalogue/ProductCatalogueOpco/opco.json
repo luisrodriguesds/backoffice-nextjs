@@ -1,0 +1,138 @@
+[
+  {
+      "countryName": "Germany",
+      "countryCode": "DE",
+      "locale": "de_DE",
+      "callingCode": "49",
+      "eligibilityCheckServiceId": "SV_CIOT_UserCheck",
+      "currencyPattern": "###,##0.00 €"
+  },
+  {
+      "countryName": "Spain",
+      "countryCode": "ES",
+      "locale": "es_ES",
+      "callingCode": "34",
+      "eligibilityCheckServiceId": "SV_CIOT_UserCheck",
+      "currencyPattern": "###,##0.00 €"
+  },
+  {
+      "countryName": "UK",
+      "countryCode": "GB",
+      "locale": "en_GB",
+      "callingCode": "44",
+      "eligibilityCheckServiceId": "SV_CIOT_UserCheck",
+      "currencyPattern": "£ ###,##0.00"
+  },
+  {
+      "countryName": "Netherlands",
+      "countryCode": "NL",
+      "locale": "nl_NL",
+      "callingCode": "31",
+      "eligibilityCheckServiceId": "SV_CIOT_UserCheck",
+      "currencyPattern": "###,##0.00 €"
+  },
+  {
+      "countryName": "Italy",
+      "countryCode": "IT",
+      "locale": "it_IT",
+      "callingCode": "39",
+      "eligibilityCheckServiceId": "SV_CIOT_UserCheck",
+      "currencyPattern": "###,##0.00 €"
+  },
+  {
+      "countryName": "Portugal",
+      "countryCode": "PT",
+      "locale": "pt_PT",
+      "callingCode": "351",
+      "eligibilityCheckServiceId": "SV_CIOT_UserCheck",
+      "currencyPattern": "###,##0.00 €"
+  },
+  {
+      "countryName": "Ireland",
+      "countryCode": "IE",
+      "locale": "en_IE",
+      "callingCode": "353",
+      "eligibilityCheckServiceId": "SV_CIOT_UserCheck",
+      "currencyPattern": "###,##0.00 €"
+  },
+  {
+      "countryName": "Greece",
+      "countryCode": "GR",
+      "locale": "el_GR",
+      "callingCode": "30",
+      "eligibilityCheckServiceId": "SV_CIOT_UserCheck",
+      "currencyPattern": "###,##0.00 €"
+  },
+  {
+      "countryName": "South Africa",
+      "countryCode": "ZA",
+      "locale": "en_ZA",
+      "callingCode": "27",
+      "eligibilityCheckServiceId": "SV_CIOT_UserCheck",
+      "currencyPattern": "R ###,##0.00"
+  },
+  {
+      "countryName": "Iceland",
+      "countryCode": "IS",
+      "locale": "is_IS",
+      "callingCode": "354",
+      "eligibilityCheckServiceId": "SV_CIOT_UserCheck",
+      "currencyPattern": "###,##0.00 €"
+  },
+  {
+      "countryName": "Malaysia",
+      "countryCode": "MY",
+      "locale": "en_MY",
+      "callingCode": "60",
+      "eligibilityCheckServiceId": "SV_CIOT_UserCheck",
+      "currencyPattern": "RM ###,##0.00"
+  },
+  {
+      "countryName": "Romania",
+      "countryCode": "RO",
+      "locale": "ro_RO",
+      "callingCode": "40",
+      "eligibilityCheckServiceId": "SV_CIOT_UserCheck",
+      "currencyPattern": "###,##0.00 EUR"
+  },
+  {
+      "countryName": "Hungary",
+      "countryCode": "HU",
+      "locale": "hu_HU",
+      "callingCode": "36",
+      "eligibilityCheckServiceId": "SV_CIOT_UserCheck",
+      "currencyPattern": "###,##0.00 Ft"
+  },
+  {
+      "countryName": "Turkey",
+      "countryCode": "TR",
+      "locale": "tr_TR",
+      "callingCode": "90",
+      "eligibilityCheckServiceId": "SV_CIOT_UserCheck",
+      "currencyPattern": "₺ ###,##0.00"
+  },
+  {
+      "countryName": "Czech Republic",
+      "countryCode": "CZ",
+      "locale": "cs_CZ",
+      "callingCode": "420",
+      "eligibilityCheckServiceId": "SV_CIOT_UserCheck",
+      "currencyPattern": "###,##0.00 Kč"
+  },
+  {
+      "countryName": "Albania",
+      "countryCode": "AL",
+      "locale": "sq_AL",
+      "callingCode": "355",
+      "eligibilityCheckServiceId": "SV_CIOT_UserCheck",
+      "currencyPattern": "###,##0.00 L"
+  },
+  {
+      "countryName": "France",
+      "countryCode": "FR",
+      "locale": "fr_FR",
+      "callingCode": "33",
+      "eligibilityCheckServiceId": "SV_CIOT_UserCheck",
+      "currencyPattern": "###,##0.00 €"
+  }
+]
