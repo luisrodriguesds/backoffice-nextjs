@@ -10,7 +10,7 @@ const defaultAxiosOptions = {
   headers: {
     Accept: 'application/json',
     'Content-Type': 'application/json',
-    'Cookie' : 'SESSION TOKEN GOES HERE!'
+    'Cookie' : 'SESSION=ZWY2ODIyZGQtNzFiZi00MGY0LTk2MDctZDI2MzYyYjI0YTI1'
   },
   withCredentials: true
 }
@@ -33,7 +33,7 @@ class HttpClient {
 
   initHttp() {
     const http = axios.create({
-      baseURL: defaultAxiosOptions.baseUrl + API_NAMESPACE,
+      baseURL: 'http://localhost:3000' + API_NAMESPACE,
       ...defaultAxiosOptions
     });
 

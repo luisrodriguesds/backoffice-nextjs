@@ -1,15 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  // async rewrites() {
-  //   return [
-  //     {
-  //       source: '/api/:slug*',
-  //       destination: 'https://content-yoda.smartlife.vodafo.ne/api/:slug*',
-  //       // headers: {'Cookie': 'SESSION=NTUxZDgyMTgtZDMzMy00ZWE4LTk3MmQtNzgwZGVmNzA0ZTI0'}
-  //     },
-  //   ]
-  // },
+  async rewrites() {
+    return [
+      {
+        source: '/api/:path*',
+        destination: 'https://content-yoda.smartlife.vodafo.ne/api/:path*',
+      },
+    ]
+  },
   // async headers() {
   //   return [
   //     {
