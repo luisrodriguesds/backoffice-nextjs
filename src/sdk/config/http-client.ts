@@ -80,7 +80,7 @@ class HttpClient {
   }
 
   // TODO handle API errors properly
-  private handleError(error) {
+  private handleError(error: any) {
     console.log(error);
     return Promise.reject(error);
   }

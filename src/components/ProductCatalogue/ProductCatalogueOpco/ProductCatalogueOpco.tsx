@@ -100,7 +100,6 @@ const ProductCatalogueOpco: React.FC = () => {
 
   return (
     <div className={style.container}>
-      {console.log(serviceAddons)}
       <Grid container direction='row'>
         <Grid item xs={6}>
           <InputLabel
