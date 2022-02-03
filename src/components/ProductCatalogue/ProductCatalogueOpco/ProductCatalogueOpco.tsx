@@ -6,11 +6,12 @@ import { setOpcoData, setCurrentCountryData } from '../../../stores/product-cata
 // import { OpcoService, ProductCatalogueServices } from 'sdk';
 import opco from "./opco.json";
 import style from './ProductCatalogueOpco.module.scss';
+import { OpcoService } from '../../../sdk';
 
 const ProductCatalogueOpco: React.FC = () => {
   const dispatch = useDispatch();
   const serviceAddons = useSelector((state: any) => state.serviceAddons)
-  const [opcoList, setOpcoList] = useState<any[]>(opco);
+  const [opcoList, setOpcoList] = useState<any[]>([]);
   const [selectedOpco, setSelectedOpco] = useState<any>({
     callingCode: '',
     countryCode: '',
@@ -20,12 +21,12 @@ const ProductCatalogueOpco: React.FC = () => {
     locale: '',
   });
 
-  // useEffect(() => {
-  //   OpcoService.getOpco().then((res) => {
-  //     setOpcoList(res.data);
-  //     dispatch(setOpcoData(res.data));
-  //   });
-  // }, []);
+  useEffect(() => {
+    OpcoService.getOpco().then((res) => {
+      setOpcoList(res.data);
+      dispatch(setOpcoData(res.data));
+    });
+  }, []);
 
   function handleOpcoChange(
     event: React.ChangeEvent<{}>,

@@ -1,10 +1,16 @@
 import { API_NAMESPACE, API_NAMESPACE_VX } from './environment';
 import axios, { AxiosInstance, AxiosRequestConfig, AxiosResponse } from 'axios';
 
+const SERVER_URL = 
+  process.env.NODE_ENV === 'development' ? 'https://content-yoda.smartlife.vodafo.ne' : null;
+
+
 const defaultAxiosOptions = {
+  baseUrl: 'https://content-yoda.smartlife.vodafo.ne',
   headers: {
     Accept: 'application/json',
-    'Content-Type': 'application/json'
+    'Content-Type': 'application/json',
+    'Cookie' : 'SESSION TOKEN GOES HERE!'
   },
   withCredentials: true
 }
@@ -27,7 +33,7 @@ class HttpClient {
 
   initHttp() {
     const http = axios.create({
-      baseURL: API_NAMESPACE,
+      baseURL: defaultAxiosOptions.baseUrl + API_NAMESPACE,
       ...defaultAxiosOptions
     });
 
