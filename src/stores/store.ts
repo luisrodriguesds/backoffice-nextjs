@@ -9,7 +9,7 @@ import deviceForm from './deviceForm';
 import deviceInfo from './deviceInfo';
 import customersData from './customers';
 
-export default configureStore({
+export const store = configureStore({
   reducer: {
     serviceAddons: serviceAddonsReducer,
     products: productReducer,

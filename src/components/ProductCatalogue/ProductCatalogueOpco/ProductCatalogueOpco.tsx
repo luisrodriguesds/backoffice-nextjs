@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Grid, InputLabel, TextField } from '@mui/material';
 import { Autocomplete } from '@mui/lab';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { setOpcoData, setCurrentCountryData } from '../../../stores/product-catalogue';
 // import { OpcoService, ProductCatalogueServices } from 'sdk';
 import opco from "./opco.json";
@@ -9,6 +9,7 @@ import style from './ProductCatalogueOpco.module.scss';
 
 const ProductCatalogueOpco: React.FC = () => {
   const dispatch = useDispatch();
+  const serviceAddons = useSelector((state: any) => state.serviceAddons)
   const [opcoList, setOpcoList] = useState<any[]>(opco);
   const [selectedOpco, setSelectedOpco] = useState<any>({
     callingCode: '',
@@ -98,6 +99,7 @@ const ProductCatalogueOpco: React.FC = () => {
 
   return (
     <div className={style.container}>
+      {console.log(serviceAddons)}
       <Grid container direction='row'>
         <Grid item xs={6}>
           <InputLabel
