@@ -1,0 +1,11 @@
+<svg id="ac17e6d3-7231-42ec-a3f2-71b76b039be1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <g id="b3c02528-518b-4697-9b91-ce37942bf50b" data-name="e6f5e0ad-89f4-4eac-8373-39d55759996d">
+    <g>
+      <path d="M78.45,34.57l-56,103.69A20,20,0,0,0,40,167.84H152a20,20,0,0,0,17.55-29.58l-56-103.69a20,20,0,0,0-35.1,0Z" transform="translate(0 0)" fill="none" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+      <line x1="96" y1="63.86" x2="96" y2="120.36" fill="none" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+      <circle cx="96" cy="139.86" r="1" fill="none" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+    </g>
+    <rect width="192" height="192" fill="none"/>
+    <circle cx="96" cy="139.86" r="4.97" fill="#333"/>
+  </g>
+</svg>

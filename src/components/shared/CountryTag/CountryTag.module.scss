@@ -1,0 +1,26 @@
+
+  .tag {
+    padding: 2px 10px;
+    margin: 2px 3px;
+    border-radius: 20px;
+    width: fit-content;;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: "Vodafone Rg";
+    float: left;
+  }
+  
+  .active {
+    color: #fff;
+    background-color: #428600;
+  }
+
+  .desactive {
+    color: #fff;
+    background-color: #E60000;
+  }
+
+  .null {
+    color: #fff;
+    background-color: #999999;
+  }

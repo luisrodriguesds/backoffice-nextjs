@@ -1,11 +1,11 @@
 import { NextPage } from "next"
-import ProductCatalogueOpco from "../../components/ProductCatalogue/ProductCatalogueOpco/ProductCatalogueOpco"
+import ProductCataloguePage from "../../components/ProductCatalogue/ProductCataloguePage/ProductCataloguePage"
 
 
-const ProductCataloguePage: NextPage = (props) => {
+const ProductCatalogueNextPage: NextPage = (props) => {
   return (
-    <ProductCatalogueOpco />
+    <ProductCataloguePage permissionsList={[]} />
   )
 }
 
-export default ProductCataloguePage
+export default ProductCatalogueNextPage

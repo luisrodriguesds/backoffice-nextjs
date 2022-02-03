@@ -1,0 +1,100 @@
+.buttonBlack {
+  font-family: "Vodafone Rg";
+  padding: 10px 40px;
+  font-size: 18px;
+  // min-width:200px;
+  width: auto;
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.buttonWhite {
+  font-family: "Vodafone Rg";
+  padding: 10px 40px;
+  font-size: 18px;
+  // min-width:200px;
+  width: auto;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #333333;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.buttonGray {
+  font-family: "Vodafone Rg";
+  padding: 10px 40px;
+  font-size: 18px;
+  width: auto;
+  // min-width:200px;
+  width: 200px;
+  color: #ffffff;
+  background-color: #999999;
+  border: 1px solid #999999;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.buttonDarkGray {
+  font-family: "Vodafone Rg";
+  padding: 10px 40px;
+  font-size: 18px;
+  width: auto;
+  // min-width:200px;
+  width: 200px;
+  color: #ffffff;
+  background-color: #666666;
+  border: 1px solid #666666;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.buttonGrayPrimary {
+  font-family: "Vodafone Rg";
+  padding: 10px 40px;
+  font-size: 18px;
+  width: auto;
+  // min-width:200px;
+  width: 200px;
+  color: #ffffff;
+  background-color: #666;
+  border: 1px solid #666;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.container {
+  button:disabled {
+    font-family: "Vodafone Rg";
+    padding: 10px 40px;
+    font-size: 18px;
+    // width:200px;
+    width: auto;
+    color: #ffffff;
+    background-color: #999999;
+    border: 1px solid #999999;
+    border-radius: 10px;
+    cursor: context-menu;
+  }
+}
+
+.sm {
+  padding: 3px 20px;
+  border-radius: 6px;
+  font-size: 16px;
+  border: 1px solid #ACB3B8 !important;
+}
+
+.md {
+  padding: 10px 30px;
+  font-size: 18px;
+  width: auto !important;
+  font-weight: 700 !important;
+}
+
+.lg{
+  padding: 10px 20px;
+}

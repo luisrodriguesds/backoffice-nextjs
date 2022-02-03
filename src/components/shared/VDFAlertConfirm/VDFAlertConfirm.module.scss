@@ -1,0 +1,21 @@
+.title {
+  font-family: 'Vodafone Rg';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #333333;
+
+  min-width: 500px;
+
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.btnsWrap {
+  display: flex;
+  padding-bottom: 10px;
+
+  button {
+    margin-left: 20px;
+  }
+}

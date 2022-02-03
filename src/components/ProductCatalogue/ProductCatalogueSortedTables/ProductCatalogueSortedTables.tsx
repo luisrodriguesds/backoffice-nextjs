@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import VDF_TableOrdenated from '../../shared/VDF_TableOrdenated/VDF_TableOrdenated';
-import { ProductCatalogueServices } from 'sdk';
-import { OrdenatedTableModel } from 'sdk/models/interfaces/product-catalogue/product-catalogue-models';
+// import { ProductCatalogueServices } from 'sdk';
+// import { OrdenatedTableModel } from 'sdk/models/interfaces/product-catalogue/product-catalogue-models';
 import { setCompleteControlData, setDataPlanData } from '../../../stores/product-catalogue';
 import style from './ProductCatalogueSortedTables.module.scss';
+import { ProductCatalogueServices } from '../../../sdk';
+import { OrdenatedTableModel } from '../../../sdk/models/interfaces/product-catalogue/product-catalogue-models';
 
 type RowData = {
   name: string;

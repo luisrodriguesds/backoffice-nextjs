@@ -1,0 +1,35 @@
+{
+  "data": [
+    {
+      "name": "CSP_VALUE",
+      "label": "Select CSP",
+      "type": "SELECTBOX",
+      "values": {
+        "DEV_VELDERLY_DE": "DEV_VELDERLY_DE",
+        "DEV_POD_DE": "DEV_POD_DE",
+        "DEV_VSIM_L_DE": "DEV_VSIM_L_DE",
+        "DEV_VSIM_XL_DE": "DEV_VSIM_XL_DE",
+        "DEV_VBIKE_DE": "DEV_VBIKE_DE",
+        "DEV_VPET_DE": "DEV_VPET_DE",
+        "DEV_VTRACKIMO_DE": "DEV_VTRACKIMO_DE",
+        "DEV_TCLKIDSWATCH2_DE": "DEV_TCLKIDSWATCH2_DE",
+        "DEV_VSIM_S_DE": "DEV_VSIM_S_DE",
+        "DEV_VSIM_XXL_DE": "DEV_VSIM_XXL_DE",
+        "SIM_ONLY_1GB": "SIM_ONLY_1GB",
+        "VFDE": "VFDE",
+        "DEV_VSIM_QA": "DEV_VSIM_QA"
+      },
+      "options": "DE"
+    },
+    {
+      "name": "DEVICE_TYPES",
+      "label": "Select Device Type",
+      "type": "MULTISELECTBOX",
+      "values": {
+        "x": "x",
+        "video_camera": "video_camera",
+        "k": "k"
+      }
+    }
+  ]
+}

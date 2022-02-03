@@ -1,0 +1,66 @@
+
+.container {
+  display: flex;
+  align-items: center;
+  height: auto;
+  border-radius: 5px;
+  padding: 10px 20px 9px;
+  width: fit-content;
+  word-break: break-all;
+  min-width: 300px;
+}
+
+.successContainer {
+  @extend .container;
+  background-color: #428600;
+}
+
+.errorContainer {
+  @extend .container;
+  background-color: #e60000;
+}
+
+.errorContainerBig {
+  display: flex;
+  align-items: flex-start;
+  height: auto;
+  border-radius: 5px;
+  padding: 10px 20px 9px;
+  width: fit-content;
+  min-width: 300px;
+  max-width: 100%;
+  background-color: #e60000;
+  word-break: break-all;
+
+  h3 {
+    padding-top: 2px;
+  }
+}
+
+.image {
+  width: 13px;
+  height: 10px;
+}
+
+.errorIcon {
+  width: 22px;
+  height: 25px;
+  filter: invert(100%) sepia(3%) saturate(5444%) hue-rotate(212deg) brightness(109%) contrast(101%);
+}
+
+.closeButton {
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+  cursor: pointer;
+  filter: invert(100%) sepia(3%) saturate(5444%) hue-rotate(212deg) brightness(109%) contrast(101%);
+}
+
+.text {
+  margin: 0 0 0 10px;
+  color: white;
+  font-family: 'Vodafone Rg';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+}

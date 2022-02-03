@@ -1,0 +1,117 @@
+{
+  "active": true,
+  "country": "DE",
+  "name": "              ",
+  "description": "tanjare",
+  "addonCard": {
+    "headline": "AddonPlugin",
+    "buttons": [
+      {
+        "caption": "clickToCall",
+        "type": "editUserInfo",
+        "phoneNumber": "+34123456678",
+        "url": "https://content.smarltife.vodafo.n"
+      },
+      {
+        "caption": "EnterUserInfo",
+        "type": "editUserInfo",
+        "phoneNumber": "4915202502435",
+        "content": "a"
+      },
+      {
+        "caption": "click2View",
+        "type": "editUserInfo",
+        "phoneNumber": "3",
+        "content": "https://content.smartlife.vodafo.ne/service-addons/addonDummyPlugin"
+      }
+    ]
+  },
+  "requiredUserInfo": {
+    "sections": [
+      {
+        "informationChunks": [
+          {
+            "key": "Name",
+            "name": "Dummy",
+            "type": "text",
+            "localValidation": {
+              "maxLength": "128",
+              "pattern": "XlthLXpBLVpdKyQ="
+            },
+            "optional": false
+          },
+          {
+            "key": "Surname1",
+            "name": "test",
+            "type": "text",
+            "localValidation": {
+              "maxLength": "128",
+              "pattern": "XlthLXpBLVpdKyQ="
+            },
+            "optional": false
+          },
+          {
+            "key": "Surname2",
+            "name": "Doherty",
+            "type": "text",
+            "localValidation": {
+              "maxLength": "128",
+              "pattern": "XlthLXpBLVpdKyQ="
+            },
+            "optional": false
+          },
+          {
+            "key": "NationalId",
+            "name": "IE23959222",
+            "type": "text",
+            "localValidation": {
+              "maxLength": "10",
+              "pattern": "XlthLXpBLVowLTlfXSsk"
+            },
+            "optional": false
+          },
+          {
+            "key": "Address",
+            "name": "address",
+            "type": "address",
+            "optional": false
+          },
+          {
+            "key": "Email",
+            "name": "matt@odoherty.com",
+            "type": "text",
+            "localValidation": {
+              "maxLength": "100",
+              "pattern": "KD86W2EtejAtOSEjJCUmJyorLz0/Xl9ge3x9fi1dKyg/OlwuW2EtejAtOSEjJCUmJyorLz0/Xl9ge3x9fi1dKykqfCIoPzpbXHgwMS1ceDA4XHgwYlx4MGNceDBlLVx4MWZceDIxXHgyMy1ceDViXHg1ZC1ceDdmXXxcXFtceDAxLVx4MDlceDBiXHgwY1x4MGUtXHg3Zl0pKiIpQCg/Oig/OlthLXowLTldKD86W2EtejAtOS1dKlthLXowLTldKT9cLikrW2EtejAtOV0oPzpbYS16MC05LV0qW2EtejAtOV0pP3xcWyg/Oig/OjI1WzAtNV18MlswLTRdWzAtOV18WzAxXT9bMC05XVswLTldPylcLil7M30oPzoyNVswLTVdfDJbMC00XVswLTldfFswMV0/WzAtOV1bMC05XT98W2EtejAtOS1dKlthLXowLTldOig/OltceDAxLVx4MDhceDBiXHgwY1x4MGUtXHgxZlx4MjEtXHg1YVx4NTMtXHg3Zl18XFxbXHgwMS1ceDA5XHgwYlx4MGNceDBlLVx4N2ZdKSspXF0p"
+            },
+            "optional": false
+          },
+          {
+            "key": "Msisdn",
+            "name": "1344442223333",
+            "type": "text",
+            "localValidation": {
+              "maxLength": "16",
+              "numberTypes": ["MOBILE"],
+              "pattern": "XCsoOVs5NzZdXGR8OFs5ODc1MzBdXGR8Nls5ODddXGR8NVs5MF1cZHw0MlxkfDNbODc1XVxkfDJbOTg2NTQzMjFdXGR8OVs4NTQzMjEwXXw4WzY0MjFdfDZbNjU0MzIxMF18NVs4NzY1NDMyMV18NFs5ODc2NTQzMTBdfDNbOTY0MzIxMF18Mls3MF18N3wxKVxkezEsMTR9JA=="
+            },
+            "optional": false
+          }
+        ]
+      }
+    ]
+  },
+  "termsAndConditionsUrl": "https://cone.com",
+  "conditions": [
+    {
+      "key": "jsonpath:device:status",
+      "value": "ACTIVE",
+      "failureMessage": "Device needs to be active to purchase this service addon."
+    },
+    {
+      "key": "jsonpath:device:subscriptionInfo.simActive",
+      "value": "true",
+      "failureMessage": "The V SIM needs to be inserted into the device and the device needs to be switched on."
+    }
+  ]
+}

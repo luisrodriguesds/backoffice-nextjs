@@ -1,0 +1,836 @@
+{
+  "id": "5b0f89944f05a80001e1696b",
+  "name": "productsmarthome",
+  "productCapability": {
+    "deviceShareCapability": {
+      "capability": false,
+      "maximumNumberOfContacts": "5",
+      "inviteExpiration": "604800000",
+      "pendingStatesList": ["PENDING"],
+      "automaticNotifyRecipient": false,
+      "useTrustedContactsConfiguration": true
+    }
+  },
+  "icons": [
+    {
+      "id": "5b0f88fc8f7d1300011dcbb6",
+      "size": 64.467,
+      "mimeType": "image/gif",
+      "md5Hash": "2f1db934a4762e43c474b93232e849ee",
+      "uploadDate": 1527744764222,
+      "height": 466,
+      "width": 750
+    }
+  ],
+  "images": [
+    {
+      "id": "5ea158885ba6536d167421a6",
+      "url": "https://images-dev-staging.v.vodafo.ne/images/products/5ea158885ba6536d167421a6_280.jpg",
+      "category": "product",
+      "mimeType": "image/jpeg",
+      "height": 186,
+      "width": 280
+    }
+  ],
+  "hardwareOperand": "OR",
+  "hardware": [
+    {
+      "id": "vodafone_smarthome",
+      "manufacturer": "vodafone_smarthome",
+      "hardwareUid": "vodafone_smarthome",
+      "model": "V_Home",
+      "firmware": ["vodafone_smarthome"],
+      "partnerName": "Samsung",
+      "controllable": false,
+      "deleted": false,
+      "validationTemplate": "default"
+    }
+  ],
+  "countries": [
+    {
+      "locale": "de_DE",
+      "contactInfo": "test",
+      "countryCode": "DE",
+      "callingCode": "49",
+      "emailId": "test@test.com",
+      "serviceId": {
+        "serviceId": "SV_CIOT_VHOME",
+        "packages": [
+          {
+            "id": "VHOME_BASIC_PLAN_24MONTHS",
+            "content": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696bhttps://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696bhttps://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696bhttps://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696bhttps://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696bhttps://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>",
+            "pricingText1": "VHOME_BASIC_PLAN_24MONTHS",
+            "pricingText2": "",
+            "oldPricingText": "VHOME_BASIC_PLAN_24MONTHS",
+            "deleted": false,
+            "purchasable": true,
+            "type": "global",
+            "moreInfoUrl": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "commercialName": "vodafone",
+            "isContract": true,
+            "durationInMonths": 1,
+            "durationLabel": "1",
+            "termsAndConditionsSummary": "<p>kjnkjnnnnhSDZSDSDsdFDSFDFdf</p>"
+          },
+          {
+            "id": "VHOME_BASIC_PLAN",
+            "content": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>",
+            "pricingText1": "VHOME_BASIC_PLAN",
+            "pricingText2": "",
+            "oldPricingText": "VHOME_BASIC_PLAN",
+            "deleted": false,
+            "purchasable": true,
+            "type": "global",
+            "moreInfoUrl": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "commercialName": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "isContract": false,
+            "durationInMonths": 1,
+            "durationLabel": "test",
+            "termsAndConditionsSummary": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>"
+          },
+          {
+            "id": "VHOME_BASIC_PLAN_24MONTHS_6M_PROMO",
+            "content": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>",
+            "pricingText1": "VHOME_BASIC_PLAN_24MONTHS_6M_PROMO",
+            "pricingText2": "",
+            "oldPricingText": "VHOME_BASIC_PLAN_24MONTHS_6M_PROMO",
+            "deleted": false,
+            "purchasable": true,
+            "type": "global",
+            "moreInfoUrl": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "commercialName": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "isContract": false,
+            "durationInMonths": 1,
+            "durationLabel": "test",
+            "termsAndConditionsSummary": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>"
+          },
+          {
+            "id": "VHOME_BASIC_PLAN_24MONTHS_499",
+            "content": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>",
+            "pricingText1": "VHOME_BASIC_PLAN_24MONTHS_499",
+            "pricingText2": "",
+            "oldPricingText": "VHOME_BASIC_PLAN_24MONTHS_499",
+            "deleted": false,
+            "purchasable": true,
+            "type": "global",
+            "moreInfoUrl": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "commercialName": "test",
+            "isContract": false,
+            "durationInMonths": 1,
+            "durationLabel": "2",
+            "termsAndConditionsSummary": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>"
+          },
+          {
+            "id": "VHOME_BASIC_PLAN_499",
+            "content": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>",
+            "pricingText1": "VHOME_BASIC_PLAN_499",
+            "pricingText2": "",
+            "oldPricingText": "VHOME_BASIC_PLAN_499",
+            "deleted": false,
+            "purchasable": true,
+            "type": "global",
+            "moreInfoUrl": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "commercialName": "test",
+            "isContract": false,
+            "durationInMonths": 1,
+            "durationLabel": "2",
+            "termsAndConditionsSummary": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>"
+          }
+        ],
+        "addonServices": [
+          {
+            "serviceUid": "caser",
+            "packages": [
+              {
+                "devicePackageIdList": ["VHOME_BASIC_PLAN"],
+                "offeredWithDeviceSubscription": false,
+                "package": {
+                  "id": "VHOME_BASIC_PLAN",
+                  "content": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>",
+                  "pricingText1": "VHOME_BASIC_PLAN",
+                  "pricingText2": "",
+                  "deleted": false,
+                  "purchasable": true,
+                  "moreInfoUrl": "",
+                  "commercialName": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+                  "isContract": false,
+                  "durationInMonths": 1,
+                  "durationLabel": "1",
+                  "termsAndConditionsSummary": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>"
+                }
+              },
+              {
+                "devicePackageIdList": ["VHOME_BASIC_PLAN_24MONTHS"],
+                "offeredWithDeviceSubscription": false,
+                "package": {
+                  "id": "VHOME_BASIC_PLAN1",
+                  "content": "<p><a href=\"products/5b0f89944f05a80001e1696b\">https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</a></p>",
+                  "pricingText1": "VHOME_BASIC_PLAN1",
+                  "pricingText2": "",
+                  "deleted": false,
+                  "purchasable": true,
+                  "moreInfoUrl": "",
+                  "commercialName": "testcaser",
+                  "isContract": false,
+                  "durationInMonths": 23,
+                  "durationLabel": "CASER",
+                  "termsAndConditionsSummary": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>"
+                }
+              }
+            ]
+          },
+          {
+            "serviceUid": "addonDummyPlugin",
+            "packages": [
+              {
+                "devicePackageIdList": ["VHOME_BASIC_PLAN_499"],
+                "offeredWithDeviceSubscription": false,
+                "package": {
+                  "id": "VHOME_BASIC_PLAN2",
+                  "content": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>",
+                  "pricingText1": "VHOME_BASIC_PLAN2",
+                  "pricingText2": "",
+                  "deleted": false,
+                  "purchasable": true,
+                  "moreInfoUrl": "",
+                  "commercialName": "LARGE",
+                  "isContract": false,
+                  "durationInMonths": 23,
+                  "durationLabel": "DUMMlabelY ",
+                  "termsAndConditionsSummary": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>"
+                }
+              }
+            ]
+          }
+        ],
+        "paymentPartner": "GROUP_ER"
+      },
+      "status": "ACTIVE",
+      "termsAndConditions": "https://content-yoda.smartlife.vodafo.ne/products/new",
+      "instructionVideo": "https://content-yoda.smartlife.vodafo.ne/products/new",
+      "partnerUrl": "https://content-yoda.smartlife.vodafo.ne/products/new",
+      "privacyPolicy": "https://content-yoda.smartlife.vodafo.ne/products/new",
+      "version": "3.1.0",
+      "requiresKYC": true,
+      "requiresProfileCompleteness": true,
+      "requiresPaymentExperience": true
+    },
+    {
+      "locale": "es_ES",
+      "countryCode": "ES",
+      "callingCode": "34",
+      "serviceId": {
+        "serviceId": "SV_CIOT_VHOME",
+        "packages": [
+          {
+            "id": "VHOME PLAN",
+            "content": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>",
+            "pricingText1": "VHOME PLAN",
+            "pricingText2": "",
+            "oldPricingText": "VHOME PLAN",
+            "deleted": false,
+            "purchasable": true,
+            "type": "global",
+            "moreInfoUrl": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "commercialName": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "isContract": false,
+            "durationInMonths": 1,
+            "durationLabel": "0",
+            "termsAndConditionsSummary": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>"
+          },
+          {
+            "id": "VHOME_PLAN_12MONTHS",
+            "content": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>",
+            "pricingText1": "VHOME_PLAN_12MONTHS",
+            "pricingText2": "",
+            "oldPricingText": "VHOME_PLAN_12MONTHS",
+            "deleted": false,
+            "purchasable": true,
+            "type": "global",
+            "moreInfoUrl": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "commercialName": "test",
+            "isContract": false,
+            "durationInMonths": 1,
+            "durationLabel": "2",
+            "termsAndConditionsSummary": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>"
+          }
+        ],
+        "addonServices": [
+          {
+            "serviceUid": "caser",
+            "packages": [
+              {
+                "devicePackageIdList": ["VHOME_PLAN_12MONTHS", "VHOME PLAN"],
+                "offeredWithDeviceSubscription": false,
+                "package": {
+                  "id": "ADDON_VHOME_CASER",
+                  "content": "<p>test</p>",
+                  "pricingText1": "ADDON_VHOME_CASER",
+                  "pricingText2": "",
+                  "deleted": false,
+                  "purchasable": true,
+                  "moreInfoUrl": "",
+                  "commercialName": "test",
+                  "isContract": false,
+                  "durationInMonths": 1,
+                  "durationLabel": "1",
+                  "termsAndConditionsSummary": "<p>test</p>"
+                }
+              },
+              {
+                "devicePackageIdList": ["VHOME PLAN", "VHOME_PLAN_12MONTHS"],
+                "offeredWithDeviceSubscription": false,
+                "package": {
+                  "id": "ADDON_VHOME_CHANNEL02",
+                  "content": "<p>test</p>",
+                  "pricingText1": "ADDON_VHOME_CHANNEL02",
+                  "pricingText2": "",
+                  "deleted": false,
+                  "purchasable": true,
+                  "moreInfoUrl": "",
+                  "commercialName": "test",
+                  "isContract": false,
+                  "durationInMonths": 1,
+                  "durationLabel": "1",
+                  "termsAndConditionsSummary": "<p>test</p>"
+                }
+              }
+            ]
+          }
+        ],
+        "paymentPartner": "GROUP_ER"
+      },
+      "status": "ACTIVE",
+      "termsAndConditions": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+      "instructionVideo": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+      "privacyPolicy": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+      "version": "3.1.0",
+      "requiresKYC": true,
+      "requiresProfileCompleteness": true,
+      "requiresPaymentExperience": true
+    },
+    {
+      "locale": "en_GB",
+      "contactInfo": "test",
+      "countryCode": "GB",
+      "callingCode": "44",
+      "emailId": "test@test.com",
+      "serviceId": {
+        "serviceId": "SV_CIOT_VHOME",
+        "packages": [
+          {
+            "id": "VHOME_BASIC_PLAN_24MONTHS",
+            "content": "<p>http://google.com</p>",
+            "pricingText1": "VHOME_BASIC_PLAN_24MONTHS",
+            "pricingText2": "",
+            "oldPricingText": "VHOME_BASIC_PLAN_24MONTHS",
+            "deleted": false,
+            "purchasable": true,
+            "type": "global",
+            "moreInfoUrl": "http://google.com",
+            "commercialName": "http://google.com",
+            "isContract": false,
+            "durationInMonths": 1,
+            "durationLabel": "i",
+            "termsAndConditionsSummary": "<p>http://google.com</p>"
+          },
+          {
+            "id": "VHOME_BASIC_PLAN",
+            "content": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>",
+            "pricingText1": "VHOME_BASIC_PLAN",
+            "pricingText2": "",
+            "oldPricingText": "VHOME_BASIC_PLAN",
+            "deleted": false,
+            "purchasable": true,
+            "type": "global",
+            "moreInfoUrl": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "commercialName": "test",
+            "isContract": false,
+            "durationInMonths": 1,
+            "durationLabel": "2",
+            "termsAndConditionsSummary": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>"
+          }
+        ],
+        "paymentPartner": "GROUP_ER"
+      },
+      "status": "ACTIVE",
+      "termsAndConditions": "http://google.com",
+      "instructionVideo": "http://google.com",
+      "partnerUrl": "http://google.com",
+      "privacyPolicy": "http://google.com",
+      "version": "3.1.0",
+      "requiresKYC": true,
+      "requiresProfileCompleteness": true,
+      "requiresPaymentExperience": true
+    },
+    {
+      "locale": "nl_NL",
+      "countryCode": "NL",
+      "callingCode": "31",
+      "serviceId": {
+        "packages": [],
+        "paymentPartner": "GROUP_ER"
+      },
+      "status": "NOT_AVAILABLE",
+      "version": "3.1.0",
+      "requiresKYC": true,
+      "requiresProfileCompleteness": true,
+      "requiresPaymentExperience": true
+    },
+    {
+      "locale": "it_IT",
+      "countryCode": "IT",
+      "callingCode": "39",
+      "serviceId": {
+        "serviceId": "SV_CIOT_VHOME",
+        "packages": [
+          {
+            "id": "HOME_BASIC_PLAN",
+            "content": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>",
+            "pricingText1": "HOME_BASIC_PLAN",
+            "pricingText2": "",
+            "oldPricingText": "HOME_BASIC_PLAN",
+            "deleted": false,
+            "purchasable": true,
+            "type": "global",
+            "moreInfoUrl": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "commercialName": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "isContract": false,
+            "durationInMonths": 1,
+            "durationLabel": "eewr",
+            "termsAndConditionsSummary": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>"
+          },
+          {
+            "id": "HOME_BASIC_PLAN_TB",
+            "content": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>",
+            "pricingText1": "HOME_BASIC_PLAN_TB",
+            "pricingText2": "",
+            "oldPricingText": "HOME_BASIC_PLAN_TB",
+            "deleted": false,
+            "purchasable": true,
+            "type": "global",
+            "moreInfoUrl": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "commercialName": "test",
+            "isContract": false,
+            "durationInMonths": 1,
+            "durationLabel": "2",
+            "termsAndConditionsSummary": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>"
+          },
+          {
+            "id": "HOME_BASIC_PLAN_TNP",
+            "content": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>",
+            "pricingText1": "HOME_BASIC_PLAN_TNP",
+            "pricingText2": "",
+            "oldPricingText": "HOME_BASIC_PLAN_TNP",
+            "deleted": false,
+            "purchasable": true,
+            "type": "global",
+            "moreInfoUrl": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "commercialName": "test",
+            "isContract": false,
+            "durationInMonths": 1,
+            "durationLabel": "2",
+            "termsAndConditionsSummary": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>"
+          },
+          {
+            "id": "HOME_BASIC_PLAN_5",
+            "content": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>",
+            "pricingText1": "HOME_BASIC_PLAN_5",
+            "pricingText2": "",
+            "oldPricingText": "HOME_BASIC_PLAN_5",
+            "deleted": false,
+            "purchasable": true,
+            "type": "global",
+            "moreInfoUrl": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "commercialName": "test",
+            "isContract": false,
+            "durationInMonths": 1,
+            "durationLabel": "2",
+            "termsAndConditionsSummary": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>"
+          },
+          {
+            "id": "VHOME_BASIC_MOBILE",
+            "content": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>",
+            "pricingText1": "VHOME_BASIC_MOBILE",
+            "pricingText2": "",
+            "oldPricingText": "VHOME_BASIC_MOBILE",
+            "deleted": false,
+            "purchasable": true,
+            "type": "global",
+            "moreInfoUrl": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "commercialName": "test",
+            "isContract": false,
+            "durationInMonths": 1,
+            "durationLabel": "2",
+            "termsAndConditionsSummary": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>"
+          },
+          {
+            "id": "VHOME_TRIAL_SMALL",
+            "content": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>",
+            "pricingText1": "VHOME_TRIAL_SMALL",
+            "pricingText2": "",
+            "oldPricingText": "VHOME_TRIAL_SMALL",
+            "deleted": false,
+            "purchasable": true,
+            "type": "global",
+            "moreInfoUrl": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "commercialName": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "isContract": false,
+            "durationInMonths": 1,
+            "durationLabel": "1",
+            "termsAndConditionsSummary": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>"
+          },
+          {
+            "id": "VHOME_TRIAL_MEDIUM",
+            "content": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>",
+            "pricingText1": "VHOME_TRIAL_MEDIUM",
+            "pricingText2": "",
+            "oldPricingText": "VHOME_TRIAL_MEDIUM",
+            "deleted": false,
+            "purchasable": true,
+            "type": "global",
+            "moreInfoUrl": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "commercialName": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "isContract": false,
+            "durationInMonths": 1,
+            "durationLabel": "1",
+            "termsAndConditionsSummary": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>"
+          },
+          {
+            "id": "VHOME_TRIAL_LARGE_1",
+            "content": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>",
+            "pricingText1": "VHOME_TRIAL_LARGE_1",
+            "pricingText2": "",
+            "oldPricingText": "VHOME_TRIAL_LARGE_1",
+            "deleted": false,
+            "purchasable": true,
+            "type": "global",
+            "moreInfoUrl": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "commercialName": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "isContract": false,
+            "durationInMonths": 1,
+            "durationLabel": "1",
+            "termsAndConditionsSummary": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>"
+          },
+          {
+            "id": "VHOME_TRIAL_LARGE_3",
+            "content": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>",
+            "pricingText1": "VHOME_TRIAL_LARGE_3",
+            "pricingText2": "",
+            "oldPricingText": "VHOME_TRIAL_LARGE_3",
+            "deleted": false,
+            "purchasable": true,
+            "type": "global",
+            "moreInfoUrl": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "commercialName": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "isContract": false,
+            "durationInMonths": 1,
+            "durationLabel": "1",
+            "termsAndConditionsSummary": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>"
+          },
+          {
+            "id": "VHOME_TRIAL_LARGE_4",
+            "content": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>",
+            "pricingText1": "VHOME_TRIAL_LARGE_4",
+            "pricingText2": "",
+            "oldPricingText": "VHOME_TRIAL_LARGE_4",
+            "deleted": false,
+            "purchasable": true,
+            "type": "global",
+            "moreInfoUrl": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "commercialName": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "isContract": false,
+            "durationInMonths": 1,
+            "durationLabel": "1",
+            "termsAndConditionsSummary": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>"
+          },
+          {
+            "id": "VHOME_TRIAL_LARGE",
+            "content": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>",
+            "pricingText1": "VHOME_TRIAL_LARGE",
+            "pricingText2": "",
+            "oldPricingText": "VHOME_TRIAL_LARGE",
+            "deleted": false,
+            "purchasable": true,
+            "type": "global",
+            "moreInfoUrl": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "commercialName": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "isContract": false,
+            "durationInMonths": 1,
+            "durationLabel": "1",
+            "termsAndConditionsSummary": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>"
+          },
+          {
+            "id": "VHOME_TRIAL_MAS",
+            "content": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>",
+            "pricingText1": "VHOME_TRIAL_MAS",
+            "pricingText2": "",
+            "oldPricingText": "VHOME_TRIAL_MAS",
+            "deleted": false,
+            "purchasable": true,
+            "type": "global",
+            "moreInfoUrl": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "commercialName": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "isContract": false,
+            "durationInMonths": 1,
+            "durationLabel": "1",
+            "termsAndConditionsSummary": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>"
+          },
+          {
+            "id": "VHOME_TRIAL_VIDEO",
+            "content": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>",
+            "pricingText1": "VHOME_TRIAL_VIDEO",
+            "pricingText2": "",
+            "oldPricingText": "VHOME_TRIAL_VIDEO",
+            "deleted": false,
+            "purchasable": true,
+            "type": "global",
+            "moreInfoUrl": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "commercialName": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "isContract": false,
+            "durationInMonths": 1,
+            "durationLabel": "1",
+            "termsAndConditionsSummary": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>"
+          },
+          {
+            "id": "VHOME_TRIAL_SSK",
+            "content": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>",
+            "pricingText1": "VHOME_TRIAL_SSK",
+            "pricingText2": "",
+            "oldPricingText": "VHOME_TRIAL_SSK",
+            "deleted": false,
+            "purchasable": true,
+            "type": "global",
+            "moreInfoUrl": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "commercialName": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "isContract": false,
+            "durationInMonths": 1,
+            "durationLabel": "1",
+            "termsAndConditionsSummary": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>"
+          }
+        ],
+        "addonServices": [
+          {
+            "serviceUid": "caser",
+            "packages": [
+              {
+                "devicePackageIdList": ["HOME_BASIC_PLAN"],
+                "offeredWithDeviceSubscription": false,
+                "package": {
+                  "id": "HOME_BASIC_PLAN",
+                  "content": "<p>test</p>",
+                  "pricingText1": "HOME_BASIC_PLAN",
+                  "pricingText2": "",
+                  "deleted": false,
+                  "purchasable": true,
+                  "moreInfoUrl": "",
+                  "commercialName": "test",
+                  "isContract": false,
+                  "durationInMonths": 1,
+                  "durationLabel": "1",
+                  "termsAndConditionsSummary": "<p>test</p>"
+                }
+              }
+            ]
+          }
+        ],
+        "paymentPartner": "GROUP_ER"
+      },
+      "status": "ACTIVE",
+      "termsAndConditions": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+      "instructionVideo": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+      "privacyPolicy": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+      "version": "3.1.0",
+      "requiresKYC": true,
+      "requiresProfileCompleteness": true,
+      "requiresPaymentExperience": true
+    },
+    {
+      "locale": "pt_PT",
+      "countryCode": "PT",
+      "callingCode": "351",
+      "serviceId": {
+        "packages": [],
+        "paymentPartner": "GROUP_ER"
+      },
+      "status": "NOT_AVAILABLE",
+      "version": "3.1.0",
+      "requiresKYC": true,
+      "requiresProfileCompleteness": true,
+      "requiresPaymentExperience": true
+    },
+    {
+      "locale": "en_IE",
+      "countryCode": "IE",
+      "callingCode": "353",
+      "serviceId": {
+        "packages": [],
+        "paymentPartner": "GROUP_ER"
+      },
+      "status": "NOT_AVAILABLE",
+      "version": "3.1.0",
+      "requiresKYC": true,
+      "requiresProfileCompleteness": true,
+      "requiresPaymentExperience": true
+    },
+    {
+      "locale": "el_GR",
+      "countryCode": "GR",
+      "callingCode": "30",
+      "serviceId": {
+        "packages": [],
+        "paymentPartner": "GROUP_ER"
+      },
+      "status": "NOT_AVAILABLE",
+      "version": "3.1.0",
+      "requiresKYC": true,
+      "requiresProfileCompleteness": true,
+      "requiresPaymentExperience": true
+    },
+    {
+      "locale": "en_ZA",
+      "countryCode": "ZA",
+      "callingCode": "27",
+      "serviceId": {
+        "serviceId": "SV_CIOT_VHOME",
+        "packages": [
+          {
+            "id": "VHOME_PLAN",
+            "content": "<p>test</p>",
+            "pricingText1": "VHOME_PLAN",
+            "pricingText2": "",
+            "oldPricingText": "VHOME_PLAN",
+            "deleted": false,
+            "purchasable": true,
+            "type": "global",
+            "moreInfoUrl": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "commercialName": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+            "isContract": false,
+            "durationInMonths": 1,
+            "durationLabel": "1",
+            "termsAndConditionsSummary": "<p>https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b</p>"
+          }
+        ],
+        "paymentPartner": "GROUP_ER"
+      },
+      "status": "ACTIVE",
+      "termsAndConditions": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+      "instructionVideo": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+      "privacyPolicy": "https://content-yoda.smartlife.vodafo.ne/products/5b0f89944f05a80001e1696b",
+      "version": "3.1.0",
+      "requiresKYC": true,
+      "requiresProfileCompleteness": true,
+      "requiresPaymentExperience": true
+    },
+    {
+      "locale": "is_IS",
+      "countryCode": "IS",
+      "callingCode": "354",
+      "serviceId": {
+        "packages": [],
+        "paymentPartner": "GROUP_ER"
+      },
+      "status": "NOT_AVAILABLE",
+      "version": "3.1.0",
+      "requiresKYC": true,
+      "requiresProfileCompleteness": true,
+      "requiresPaymentExperience": true
+    },
+    {
+      "locale": "en_MY",
+      "serviceId": {
+        "packages": [],
+        "addonServices": []
+      },
+      "serviceIds": [],
+      "status": "NOT_AVAILABLE",
+      "requiresKYC": false,
+      "requiresProfileCompleteness": false,
+      "requiresPaymentExperience": true
+    },
+    {
+      "locale": "ro_RO",
+      "serviceId": {
+        "packages": [],
+        "addonServices": []
+      },
+      "serviceIds": [],
+      "status": "NOT_AVAILABLE",
+      "requiresKYC": false,
+      "requiresProfileCompleteness": false,
+      "requiresPaymentExperience": true
+    },
+    {
+      "locale": "hu_HU",
+      "serviceId": {
+        "packages": [],
+        "addonServices": []
+      },
+      "serviceIds": [],
+      "status": "NOT_AVAILABLE",
+      "requiresKYC": false,
+      "requiresProfileCompleteness": false,
+      "requiresPaymentExperience": true
+    },
+    {
+      "locale": "tr_TR",
+      "serviceId": {
+        "packages": [],
+        "addonServices": []
+      },
+      "serviceIds": [],
+      "status": "NOT_AVAILABLE",
+      "requiresKYC": false,
+      "requiresProfileCompleteness": false,
+      "requiresPaymentExperience": true
+    },
+    {
+      "locale": "cs_CZ",
+      "serviceId": {
+        "packages": [],
+        "addonServices": []
+      },
+      "serviceIds": [],
+      "status": "NOT_AVAILABLE",
+      "requiresKYC": false,
+      "requiresProfileCompleteness": false,
+      "requiresPaymentExperience": true
+    },
+    {
+      "locale": "sq_AL",
+      "serviceId": {
+        "packages": [],
+        "addonServices": []
+      },
+      "serviceIds": [],
+      "status": "NOT_AVAILABLE",
+      "requiresKYC": false,
+      "requiresProfileCompleteness": false,
+      "requiresPaymentExperience": true
+    },
+    {
+      "locale": "fr_FR",
+      "serviceId": {
+        "packages": [],
+        "addonServices": []
+      },
+      "serviceIds": [],
+      "status": "NOT_AVAILABLE",
+      "requiresKYC": false,
+      "requiresProfileCompleteness": false,
+      "requiresPaymentExperience": true
+    }
+  ],
+  "deleted": false,
+  "version": "3.2.0",
+  "deviceUidInput": [
+    {
+      "preference": 1,
+      "input": "QRCode"
+    },
+    {
+      "preference": 2,
+      "input": "manual"
+    }
+  ]
+}

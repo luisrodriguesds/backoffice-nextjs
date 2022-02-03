@@ -1,0 +1,12 @@
+{
+  "productCapability": {
+    "deviceShareCapability": {
+      "capability": true,
+      "maximumNumberOfContacts": "5",
+      "inviteExpiration": "604800000",
+      "pendingStatesList": ["PENDING"],
+      "automaticNotifyRecipient": false,
+      "useTrustedContactsConfiguration": true
+    }
+  }
+}

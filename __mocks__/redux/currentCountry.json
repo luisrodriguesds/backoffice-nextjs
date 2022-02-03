@@ -1,0 +1,205 @@
+{
+  "locale": "de_DE",
+  "contactInfo": "test",
+  "countryCode": "DE",
+  "callingCode": "49",
+  "emailId": "test@test.com",
+  "serviceId": {
+    "serviceId": "SV_CIOT_VHOME",
+    "packages": [
+      {
+        "id": "VSIM_SMALL_PLAN",
+        "content": "<p>VSIM</p>",
+        "pricingText1": "VSIM_SMALL_PLAN",
+        "pricingText2": "",
+        "oldPricingText": "VSIM_SMALL_PLAN",
+        "deleted": false,
+        "purchasable": true,
+        "type": "global",
+        "customProperties": {
+          "CSP_VALUE": "DEV_VELDERLY_DE",
+          "DEVICE_TYPES": "video_camera,x"
+        },
+        "moreInfoUrl": "https://content-yoda.smartlife.vodafo.ne/products/new",
+        "commercialName": "VSIm",
+        "isContract": true,
+        "durationInMonths": 1,
+        "durationLabel": "1",
+        "termsAndConditionsSummary": "<p>aaa</p>",
+        "idx": "_l8anzepvt",
+        "serviceUids": ["tyco"]
+      },
+      {
+        "id": "VSIM_SMALL_PLAN_24MONTHS",
+        "content": "<p>https://test.com</p>",
+        "pricingText1": "VSIM_SMALL_PLAN_24MONTHS",
+        "pricingText2": "",
+        "oldPricingText": "VSIM_SMALL_PLAN_24MONTHS",
+        "deleted": false,
+        "purchasable": true,
+        "type": "global",
+        "customProperties": {
+          "CSP_VALUE": "X_obsolete_CIOT_TEST_90128",
+          "DEVICE_TYPES": "video_camera"
+        },
+        "moreInfoUrl": "https://moreinfo.com",
+        "commercialName": "comm_name",
+        "isContract": false,
+        "durationInMonths": 1,
+        "durationLabel": "month",
+        "termsAndConditionsSummary": "<p>tcsss</p>",
+        "idx": "_itzaqc81j"
+      },
+      {
+        "id": "VSIM_LARGE_PLAN",
+        "content": "<p>V-Sim Tarif Test</p>",
+        "pricingText1": "VSIM_LARGE_PLAN",
+        "pricingText2": "",
+        "oldPricingText": "VSIM_LARGE_PLAN",
+        "deleted": false,
+        "purchasable": true,
+        "type": "global",
+        "customProperties": {
+          "CSP_VALUE": "DEV_VSIM_L_DE",
+          "DEVICE_TYPES": "video_camera"
+        },
+        "moreInfoUrl": "",
+        "commercialName": "V-Sim Tarif Test",
+        "isContract": false,
+        "durationInMonths": 12,
+        "durationLabel": "12 months",
+        "termsAndConditionsSummary": "<p>V-Sim Tarif Test</p>",
+        "idx": "_s5fhj44sd",
+        "serviceUids": ["addonDummyPlugin"]
+      },
+      {
+        "id": "VSIM_EXTRALARGE_PLAN",
+        "content": "<p>VSIM</p>",
+        "pricingText1": "VSIM_EXTRALARGE_PLAN",
+        "pricingText2": "",
+        "oldPricingText": "VSIM_EXTRALARGE_PLAN",
+        "deleted": false,
+        "purchasable": true,
+        "type": "global",
+        "customProperties": {
+          "CSP_VALUE": "DEV_VSIM_XXL_DE",
+          "DEVICE_TYPES": "video_camera"
+        },
+        "moreInfoUrl": "",
+        "commercialName": "VSIM",
+        "isContract": false,
+        "durationInMonths": 12,
+        "durationLabel": "12 months",
+        "termsAndConditionsSummary": "<p>VSIM</p>",
+        "idx": "_vlmhu0zap",
+        "serviceUids": ["vaa"]
+      }
+    ],
+    "addonServices": [
+      {
+        "serviceUid": "voice",
+        "packages": [
+          {
+            "devicePackageIdList": ["VSIM_EXTRALARGE_PLAN"],
+            "offeredWithDeviceSubscription": false,
+            "package": {
+              "id": "VSIM_EXTRALARGE_PLAN",
+              "content": "<p>TESTING_VOICE</p>",
+              "pricingText1": "VSIM_EXTRALARGE_PLAN",
+              "pricingText2": "",
+              "deleted": false,
+              "purchasable": true,
+              "moreInfoUrl": "",
+              "commercialName": "TESTING_VOICE",
+              "isContract": false,
+              "durationInMonths": 12,
+              "durationLabel": "12 months",
+              "termsAndConditionsSummary": "<p>TESTING_VOICE</p>"
+            }
+          }
+        ]
+      },
+      {
+        "serviceUid": "vaa-full",
+        "packages": [
+          {
+            "devicePackageIdList": ["VSIM_EXTRALARGE_PLAN"],
+            "offeredWithDeviceSubscription": false,
+            "package": {
+              "id": "vaa-full",
+              "content": "<p>test</p>",
+              "pricingText1": "vaa-full",
+              "pricingText2": "",
+              "deleted": false,
+              "purchasable": true,
+              "moreInfoUrl": "",
+              "commercialName": "test vaa",
+              "isContract": false,
+              "durationInMonths": 2,
+              "durationLabel": "2",
+              "termsAndConditionsSummary": "<p>test</p>"
+            }
+          }
+        ]
+      },
+      {
+        "serviceUid": "vaa",
+        "packages": [
+          {
+            "devicePackageIdList": ["VSIM_EXTRALARGE_PLAN"],
+            "offeredWithDeviceSubscription": true
+          }
+        ]
+      },
+      {
+        "serviceUid": "addonDummyPlugin",
+        "packages": [
+          {
+            "devicePackageIdList": ["VSIM_LARGE_PLAN"],
+            "offeredWithDeviceSubscription": true
+          },
+          {
+            "devicePackageIdList": [],
+            "offeredWithDeviceSubscription": false,
+            "package": {
+              "idx": "_syqy0ofu3",
+              "id": "_syqy0ofu3",
+              "content": "",
+              "pricingText1": "",
+              "pricingText2": "",
+              "deleted": false,
+              "purchasable": false,
+              "moreInfoUrl": "",
+              "commercialName": "",
+              "isContract": false,
+              "durationInMonths": "",
+              "durationLabel": "",
+              "termsAndConditionsSummary": "",
+              "pricePlans": [],
+              "serviceAddonsId": "addonDummyPlugin"
+            }
+          }
+        ]
+      },
+      {
+        "serviceUid": "tyco",
+        "packages": [
+          {
+            "devicePackageIdList": ["VSIM_SMALL_PLAN"],
+            "offeredWithDeviceSubscription": true
+          }
+        ]
+      }
+    ],
+    "paymentPartner": "GROUP_ER"
+  },
+  "status": "ACTIVE",
+  "termsAndConditions": "https://content-yoda.smartlife.vodafo.ne/products/new",
+  "instructionVideo": "https://content-yoda.smartlife.vodafo.ne/products/new",
+  "partnerUrl": "https://content-yoda.smartlife.vodafo.ne/products/new",
+  "privacyPolicy": "https://content-yoda.smartlife.vodafo.ne/products/new",
+  "version": "3.1.0",
+  "requiresKYC": true,
+  "requiresProfileCompleteness": true,
+  "requiresPaymentExperience": true
+}

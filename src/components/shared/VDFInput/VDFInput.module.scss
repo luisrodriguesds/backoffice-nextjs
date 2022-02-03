@@ -1,0 +1,58 @@
+
+.inputContainerTop {
+  width: -webkit-fill-available;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.inputContainerLeft {
+  width: -webkit-fill-available;
+  margin-bottom: 20px;
+}
+
+.inputBox {
+  margin-top: 12px !important;
+  width: -webkit-fill-available;
+
+  input {
+    padding: 0px 14px !important;
+    height: 44px;
+
+    &:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+      background-color: #ebebeb;
+    }
+  }
+
+  legend {
+    display: none;
+  }
+  fieldset {
+    top: 0 !important;
+  }
+}
+
+.inputTitleTop {
+  width: 150px;
+  color: #000000;
+  font-size: 18px;
+  font-family: 'Vodafone Rg';
+  font-weight: 100;
+  white-space: nowrap;
+  margin: 0 20px 0 0;
+}
+
+.inputTitleLeft {
+  width: 150px;
+  color: #000000;
+  font-size: 18px;
+  font-family: 'Vodafone Rg';
+  font-weight: 100;
+  white-space: nowrap;
+  margin: 0 0 12px 0 !important;
+}
+
+input#inputField {
+  padding: 112px 16px !important;
+}

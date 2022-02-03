@@ -1,0 +1,26 @@
+.basicText {
+  font-family: 'Vodafone Rg';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.accordion {
+  border-radius: 0 !important;
+
+  div[class='MuiAccordionSummary-content'],
+  div[class='MuiAccordionSummary-content Mui-expanded'] {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 !important;
+  }
+  div[class='MuiAccordionDetails-root'] {
+    flex-direction: column;
+    padding: 0 10px !important;
+  }
+
+  div[role='button'] {
+    min-height: 51px !important;
+  }
+}

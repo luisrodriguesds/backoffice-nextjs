@@ -1,0 +1,30 @@
+.noResultsContainer {
+  h3 {
+    font-family: Vodafone Rg;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 10px 0;
+  }
+
+  h4 {
+    font-family: Vodafone Rg;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6c7174;
+    display: flex;
+    justify-content: center;
+    margin:0;
+    padding-bottom: 30px;
+  }
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: center;
+}

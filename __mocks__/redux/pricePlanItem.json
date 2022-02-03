@@ -1,0 +1,22 @@
+{
+  "id": "VSIM_SMALL_PLAN",
+  "content": "<p>VSIM</p>",
+  "pricingText1": "VSIM_SMALL_PLAN",
+  "pricingText2": "",
+  "oldPricingText": "VSIM_SMALL_PLAN",
+  "deleted": false,
+  "purchasable": true,
+  "type": "global",
+  "customProperties": {
+    "CSP_VALUE": "DEV_VELDERLY_DE",
+    "DEVICE_TYPES": "video_camera,x"
+  },
+  "moreInfoUrl": "https://content-yoda.smartlife.vodafo.ne/products/new",
+  "commercialName": "VSIm",
+  "isContract": true,
+  "durationInMonths": 1,
+  "durationLabel": "1",
+  "termsAndConditionsSummary": "<p>aaa</p>",
+  "idx": "_v5hl7eaae",
+  "serviceUids": ["tyco", "vaa"]
+}

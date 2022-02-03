@@ -1,0 +1,71 @@
+.chip {
+  background-color: #e9e9e9 !important;
+  border: 1px solid #999999 !important;
+  border-radius: 3px !important;
+  height: 32px !important;
+  width: fit-content !important;
+  & .MuiChip-label,
+  .MuiChip-deleteIcon {
+    color: #000;
+    font-family: Vodafone Rg;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 18px !important;
+    line-height: 24px !important;
+  }
+}
+
+.top {
+  display: flex;
+  margin: 0 0 12px 0;
+  align-items: center;
+}
+
+.title {
+  width: auto;
+  padding-right: 10px !important;
+  color: #000000 !important;
+  font-size: 18px !important;
+  font-family: 'Vodafone Rg' !important;
+  font-weight: 100 !important;
+  white-space: nowrap !important;
+}
+
+.autocomplete {
+  padding: 0px;
+  & > div > div {
+    padding: 3px !important;
+
+    div[role='button'] {
+      margin: 0 3px !important;
+    }
+  }
+
+  legend {
+    display: none;
+  }
+  fieldset {
+    top: 0 !important;
+  }
+}
+
+.appInfo {
+  width: 100%;
+  display: flex;
+  color: #999999;
+  flex: 1;
+  align-items: center;
+
+  img {
+    width: 25px;
+    height: 25px;
+    padding-right: 6px;
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Vodafone Rg';
+    font-size: 16px;
+  }
+}

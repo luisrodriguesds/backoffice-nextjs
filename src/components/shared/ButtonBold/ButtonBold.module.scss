@@ -1,0 +1,168 @@
+.buttonBlack {
+  font-family: 'Vodafone Rg';
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 10px 30px;
+  width: auto !important;
+  color: #ffffff;
+  background-color: #333333;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0px 1px 4px #cccccc;
+  }
+
+  &:active {
+    color: #ffffff;
+    background-color: #666666;
+    border: 1px solid #666666;
+  }
+
+  &:disabled {
+    color: #999999;
+    background-color: #cccccc;
+    border: 1px solid #cccccc;
+  }
+}
+
+.buttonWhite {
+  font-family: 'Vodafone Rg';
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 10px 30px;
+  width: auto !important;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0px 1px 4px #cccccc;
+  }
+
+  &:active {
+    color: #333;
+    background-color: #afafaf;
+    border: 1px solid #afafaf;
+  }
+
+  &:disabled {
+    color: #999999;
+    background-color: #ebebeb;
+    border: 1px solid #ebebeb;
+    border: 1px solid #cccccc;
+  }
+}
+
+.buttonWhiteOutlined {
+  font-family: 'Vodafone Rg';
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 6px 20px;
+  width: auto !important;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #acb3b8;
+  border-radius: 6px;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0px 1px 4px #cccccc;
+  }
+
+  &:active {
+    color: #333;
+    background-color: #afafaf;
+    border: 1px solid #afafaf;
+  }
+
+  &:disabled {
+    color: #999999;
+    background-color: #ebebeb;
+    border: 1px solid #ebebeb;
+    border: 1px solid #cccccc;
+  }
+}
+
+.buttonGray {
+  font-family: 'Vodafone Rg';
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 10px 30px;
+  width: auto !important;
+  color: #333333;
+  background-color: #cccccc;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0px 1px 4px #cccccc;
+  }
+
+  &:active {
+    color: #ffffff;
+    background-color: #4c4c4c;
+    border: 1px solid #4c4c4c;
+  }
+
+  &:disabled {
+    color: #999999;
+    background-color: #cccccc;
+    border: 1px solid #cccccc;
+  }
+}
+
+.buttonDarkGray {
+  font-family: 'Vodafone Rg';
+  padding: 10px 40px;
+  font-size: 18px;
+  width: auto;
+  // min-width:200px;
+  width: 200px;
+  color: #ffffff;
+  background-color: #666666;
+  border: 1px solid #666666;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.buttonGrayPrimary {
+  font-family: 'Vodafone Rg';
+  padding: 10px 40px;
+  font-size: 18px;
+  width: auto;
+  // min-width:200px;
+  width: 200px;
+  color: #ffffff;
+  background-color: #666;
+  border: 1px solid #666;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.container {
+  button:disabled {
+    font-family: 'Vodafone Rg';
+    padding: 10px 40px;
+    font-size: 18px;
+    // width:200px;
+    width: auto;
+    color: #ffffff;
+    background-color: #999999;
+    border: 1px solid #999999;
+    border-radius: 10px;
+    cursor: context-menu;
+  }
+}

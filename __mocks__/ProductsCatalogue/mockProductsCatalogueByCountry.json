@@ -1,0 +1,810 @@
+{
+  "data": {
+    "productTOC": [
+      {
+        "category": "complete_control",
+        "products": [
+          {
+            "productId": "617a702054643519d264295c",
+            "priorityOrder": 1
+          },
+          {
+            "productId": "6047816c8b981984295ee338",
+            "priorityOrder": 2
+          },
+          {
+            "productId": "5b167d4f4f05a800015a03aa",
+            "priorityOrder": 3
+          },
+          {
+            "productId": "ba10c1a7434644ff9ca3cea1",
+            "priorityOrder": 4
+          }
+        ]
+      },
+      {
+        "category": "data_plan_only",
+        "products": [
+          {
+            "productId": "5b0f89944f05a80001e1696b",
+            "priorityOrder": 1
+          },
+          {
+            "productId": "5c1b5e797960b6000129c480",
+            "priorityOrder": 2
+          },
+          {
+            "productId": "1e34364364b241fba07fd432",
+            "priorityOrder": 3
+          },
+          {
+            "productId": "7e085af68c1b40f6b3c9cd97",
+            "priorityOrder": 4
+          }
+        ]
+      }
+    ],
+    "history": [
+      {
+        "activityDate": "2020-11-18T17:31:10.514Z",
+        "email": "smartlife-test15@ppinternal.vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2020-11-19T08:30:07.552Z",
+        "email": "smartlife-test15@ppinternal.vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2020-11-19T08:33:57.745Z",
+        "email": "smartlife-test15@ppinternal.vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2020-11-19T08:34:23.522Z",
+        "email": "smartlife-test15@ppinternal.vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2020-11-19T08:34:27.967Z",
+        "email": "smartlife-test15@ppinternal.vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2020-12-10T08:24:48.375Z",
+        "email": "smartlife-test15@ppinternal.vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2020-12-10T08:24:50.180Z",
+        "email": "smartlife-test15@ppinternal.vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2020-12-10T08:24:53.352Z",
+        "email": "smartlife-test15@ppinternal.vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2020-12-10T08:24:54.583Z",
+        "email": "smartlife-test15@ppinternal.vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-02-05T09:26:14.097Z",
+        "email": "smartlife-test08@ppinternal.vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-02-05T09:26:15.745Z",
+        "email": "smartlife-test08@ppinternal.vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-02-05T09:26:16.578Z",
+        "email": "smartlife-test08@ppinternal.vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-02-05T09:26:17.420Z",
+        "email": "smartlife-test08@ppinternal.vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-02-05T09:32:54.887Z",
+        "email": "smartlife-test08@ppinternal.vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-02-05T09:32:56.565Z",
+        "email": "smartlife-test08@ppinternal.vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-02-05T09:32:58.559Z",
+        "email": "smartlife-test08@ppinternal.vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-02-05T09:32:59.516Z",
+        "email": "smartlife-test08@ppinternal.vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-02-05T09:33:03.169Z",
+        "email": "smartlife-test08@ppinternal.vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-02-05T09:33:04.112Z",
+        "email": "smartlife-test08@ppinternal.vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-03-10T06:31:22.100Z",
+        "email": "smartlife-test08@ppinternal.vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-03-10T06:31:54.383Z",
+        "email": "smartlife-test08@ppinternal.vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-03-10T06:52:00.114Z",
+        "email": "smartlife-test08@ppinternal.vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-03-10T06:52:01.871Z",
+        "email": "smartlife-test08@ppinternal.vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-03-10T06:52:55.806Z",
+        "email": "smartlife-test08@ppinternal.vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-03-10T06:52:57.470Z",
+        "email": "smartlife-test08@ppinternal.vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-03-10T06:54:28.783Z",
+        "email": "smartlife-test08@ppinternal.vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-03-10T06:54:29.859Z",
+        "email": "smartlife-test08@ppinternal.vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-03-10T07:13:48.743Z",
+        "email": "smartlife-test08@ppinternal.vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-03-10T07:13:50.147Z",
+        "email": "smartlife-test08@ppinternal.vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-03-10T07:19:24.394Z",
+        "email": "smartlife-test08@ppinternal.vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-03-10T07:19:25.396Z",
+        "email": "smartlife-test08@ppinternal.vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-03-10T07:21:16.940Z",
+        "email": "smartlife-test08@ppinternal.vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-03-10T07:21:18.156Z",
+        "email": "smartlife-test08@ppinternal.vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-03-10T07:21:20.631Z",
+        "email": "smartlife-test08@ppinternal.vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-03-10T07:39:42.231Z",
+        "email": "smartlife-test08@ppinternal.vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-03-10T07:39:43.940Z",
+        "email": "smartlife-test08@ppinternal.vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-03-10T07:54:16.370Z",
+        "email": "smartlife-test08@ppinternal.vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-03-10T07:54:17.387Z",
+        "email": "smartlife-test08@ppinternal.vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-08-10T07:49:33.673Z",
+        "email": "guilherme.kalel1@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-08-10T07:49:55.009Z",
+        "email": "guilherme.kalel1@vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-11-04T12:21:31.492Z",
+        "email": "guilherme.kalel1@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-04T12:21:34.153Z",
+        "email": "guilherme.kalel1@vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-11-16T14:23:36.687Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-16T14:24:00.511Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-16T14:42:29.529Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-16T14:42:44.038Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-16T14:42:44.542Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-11-16T14:45:25.568Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-16T14:45:27.800Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-16T14:45:27.899Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-11-16T14:56:12.422Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-16T14:56:16.264Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-16T14:56:17.448Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-16T14:56:37.756Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-16T14:56:41.419Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-16T14:56:45.854Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-16T14:56:49.246Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-16T14:56:50.575Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-16T14:56:51.048Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-11-16T15:39:35.060Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-16T15:39:38.916Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-16T15:39:41.913Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-17T17:19:41.990Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-19T08:11:05.913Z",
+        "email": "tanushree.sinharoy@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-19T12:56:26.140Z",
+        "email": "soraia.fernandes1@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-19T12:56:46.112Z",
+        "email": "soraia.fernandes1@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-19T12:56:46.196Z",
+        "email": "soraia.fernandes1@vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-11-19T13:53:51.768Z",
+        "email": "soraia.fernandes1@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-19T13:54:23.675Z",
+        "email": "soraia.fernandes1@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-19T14:11:10.824Z",
+        "email": "soraia.fernandes1@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-19T14:11:13.115Z",
+        "email": "soraia.fernandes1@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-19T14:11:13.302Z",
+        "email": "soraia.fernandes1@vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-11-22T17:28:41.560Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-22T17:30:33.616Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-22T17:31:23.962Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-22T17:32:37.876Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-22T17:34:49.673Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-22T17:35:02.979Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-22T17:35:09.384Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-22T17:35:27.755Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-22T17:36:06.242Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-22T17:36:15.242Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-22T17:36:16.297Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-22T17:36:16.790Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-22T17:36:16.974Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-22T17:37:39.606Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-22T17:37:44.712Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-22T17:44:56.062Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-22T17:45:00.612Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-22T19:20:04.943Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-25T16:29:04.000Z",
+        "email": "diogo.canas1@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-25T16:29:06.722Z",
+        "email": "diogo.canas1@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-11-25T16:29:06.793Z",
+        "email": "diogo.canas1@vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-11-25T17:18:02.497Z",
+        "email": "diogo.canas1@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-07T17:11:04.768Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-07T17:11:08.033Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-07T17:14:08.107Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-07T17:14:12.155Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-07T17:14:12.582Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-12-07T17:16:13.376Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-07T17:16:15.632Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-07T17:16:15.694Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-12-07T17:16:30.123Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-09T11:26:13.927Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-09T11:26:17.663Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-12-09T12:16:23.711Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-09T12:16:26.532Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-12-09T12:47:38.185Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-09T12:47:41.320Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-12-10T10:35:07.097Z",
+        "email": "miguel.romao@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-10T10:35:09.090Z",
+        "email": "miguel.romao@vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-12-10T10:35:10.769Z",
+        "email": "miguel.romao@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-10T10:35:12.385Z",
+        "email": "miguel.romao@vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-12-10T10:35:30.106Z",
+        "email": "miguel.romao@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-10T10:35:31.211Z",
+        "email": "miguel.romao@vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-12-10T10:35:34.023Z",
+        "email": "miguel.romao@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-10T10:35:46.627Z",
+        "email": "miguel.romao@vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-12-10T10:35:48.256Z",
+        "email": "miguel.romao@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-10T10:35:50.195Z",
+        "email": "miguel.romao@vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-12-10T10:35:52.601Z",
+        "email": "miguel.romao@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-13T10:29:45.133Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-13T10:29:46.562Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-12-13T10:29:48.695Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-13T10:29:49.935Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-13T10:31:17.645Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-13T10:31:18.785Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-12-13T10:31:20.317Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-13T10:32:00.186Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-13T10:32:01.618Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-12-13T10:32:05.661Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-12-13T10:32:08.546Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-12-13T10:32:10.368Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-13T10:32:19.275Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-13T10:32:21.084Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-12-13T10:32:27.468Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-12-13T10:33:03.426Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-13T10:33:05.401Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-12-13T10:33:07.156Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-13T10:34:13.624Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-13T10:34:15.175Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-12-13T10:34:20.606Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-13T10:34:24.042Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-12-13T10:34:27.464Z",
+        "email": "fernanda.avelar@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-13T12:46:04.676Z",
+        "email": "diogo.canas1@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-13T12:46:07.257Z",
+        "email": "diogo.canas1@vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-12-13T12:46:09.836Z",
+        "email": "diogo.canas1@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-13T12:46:11.800Z",
+        "email": "diogo.canas1@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-13T12:46:12.546Z",
+        "email": "diogo.canas1@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-13T12:46:12.829Z",
+        "email": "diogo.canas1@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-13T12:46:12.890Z",
+        "email": "diogo.canas1@vodafone.com",
+        "activity": "update catalogue"
+      },
+      {
+        "activityDate": "2021-12-13T12:46:13.715Z",
+        "email": "diogo.canas1@vodafone.com",
+        "activity": "publish catalogue"
+      },
+      {
+        "activityDate": "2021-12-13T12:46:14.955Z",
+        "email": "diogo.canas1@vodafone.com",
+        "activity": "update catalogue"
+      }
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+.container {
+  align-items: center;
+  margin-top: 12px;
+
+  img {
+    max-width: 80px;
+    max-height: 80px;
+    width: fit-content;
+    height: auto;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+}
+
+button {
+  border: none;
+  background: white;
+}
+
+.addIconButton {
+  height: 44px;
+  width: 44px;
+  min-width: 44px !important;
+  background-color: #666 !important;
+  border-radius: 6px !important;
+  margin-left: 12px !important;
+  box-shadow: none !important;
+
+  &:hover {
+    background-color: #000000 !important;
+  }
+}
+
+.addIcon {
+  width: 30px !important;
+  height: 30px !important;
+  filter: invert(95%) sepia(100%) saturate(21%) hue-rotate(316deg) brightness(106%) contrast(106%) !important;
+}
+
+button.changeIconButton {
+  margin-left: 24px !important;
+  border-radius: 8px;
+  border-color: #000 !important;
+  color: #000;
+  height: 44px;
+  width: 168px;
+  & span {
+    text-transform: none;
+    font-family: 'Vodafone Rg';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  &[tabindex='0'] {
+    font-weight: 400 !important;
+    border: 1px solid #333333;
+    text-transform: none !important;
+    &:hover {
+      background-color: white;
+      box-shadow: 0 1px 4px 0 #cccccc;
+    }
+  }
+}
+.btnCloseCsv {
+  margin-bottom: 2px !important;
+}
+
+.iconPreview {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  margin-top: 14px;
+}
+
+.closeIcon {
+  position: absolute;
+  cursor: pointer;
+  top: -10px;
+  right: -10px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  font-weight: bolder;
+  background: #f8f8f8;
+  color: #696969;
+}
+
+.fileField {
+  display: inline-flex;
+  align-items: center;
+}
+
+div.iconErrorMessageContainer {
+  & p.errorMessage {
+    font-family: 'Vodafone Rg';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 8px;
+    margin-bottom: 30px;
+    padding-left: 8px;
+    color: red;
+  }
+}
+
+.containerCsv {
+  display: flex;
+  align-items: flex-end;
+}
+
+.iconPreviewCsv {
+  position: relative;
+  display: flex;
+  width: 70px;
+}
+
+.closeBtnCsv {
+  background: transparent;
+  border: 0;
+
+  position: absolute;
+  top: -8px;
+  right: -5px;
+}

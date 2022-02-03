@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { Products } from 'sdk/models/interfaces/product-catalogue/product-catalogue-models';
+import { Products } from '../../../sdk/models/interfaces/product-catalogue/product-catalogue-models';
+// import { Products } from 'sdk/models/interfaces/product-catalogue/product-catalogue-models';
 import { setCompleteControlData, setDataPlanData } from '../../../stores/product-catalogue';
 import style from './ProductCatalogueAvaliableProducts.module.scss';
 

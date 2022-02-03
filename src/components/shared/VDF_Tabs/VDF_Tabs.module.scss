@@ -1,0 +1,71 @@
+.tabs {
+  background-color: #fff;
+  border-radius: 10px;
+
+  button {
+    text-transform: none !important;
+    font-family: 'Vodafone Rg';
+    font-size: 16px;
+
+    &[role='tab'] {
+      padding: 11px 20px;
+    }
+
+    &[role='tab'][aria-selected='true'] {
+      color: black;
+      font-weight: 700 !important;
+    }
+  }
+}
+
+.tabsTransparent {
+  background-color: transparent;
+  border-radius: 10px;
+  & > div {
+    min-height: 43px;
+
+    & > div {
+      box-shadow: 0 -1px 0 #cccccc;
+    }
+  }
+
+  div[role='tablist'] {
+    height: 43px;
+  }
+
+  button {
+    text-transform: none !important;
+    font-family: 'Vodafone Rg';
+    font-size: 16px;
+    &[role='tab'][aria-selected='true'] {
+      color: black;
+    }
+    span {
+      text-transform: none !important;
+      font-family: 'Vodafone Rg';
+      font-size: 16px;
+    }
+    &[tabindex='0'] {
+      font-weight: 700 !important;
+    }
+  }
+}
+
+.tabItemContent {
+  padding: 20px;
+
+  > div {
+    padding: 0;
+  }
+}
+
+button {
+  &[role='tab'] {
+    &[tabindex='0'] {
+      color: #333333;
+      padding: 11px 20px;
+      line-height: 1;
+      min-height: 43px;
+    }
+  }
+}

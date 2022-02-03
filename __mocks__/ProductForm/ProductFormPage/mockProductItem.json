@@ -1,0 +1,344 @@
+{
+  "data": {
+    "id": "1e34364364b241fba07fd432",
+    "name": "product_smartauto_devQA_dontTouch",
+    "productCapability": {},
+    "icons": [
+        {
+            "id": "58bee1d9f4428a000b09308a",
+            "size": 38.912,
+            "mimeType": "image/png",
+            "md5Hash": "e1c6aafb269d03ab1947fb420f1953c5",
+            "uploadDate": 1488904665245,
+            "height": 1024,
+            "width": 1024
+        }
+    ],
+    "images": [
+        {
+            "id": "5ea158885ba6536d167421a6",
+            "url": "https://images-dev-staging.v.vodafo.ne/images/products/5ea158885ba6536d167421a6_280.jpg",
+            "category": "product",
+            "mimeType": "image/jpeg",
+            "height": 186,
+            "width": 280
+        }
+    ],
+    "hardwareOperand": "OR",
+    "hardware": [
+        {
+            "id": "vodafone_smartauto",
+            "manufacturer": "vodafone_smartauto",
+            "hardwareUid": "vodafone_smartauto",
+            "model": "smartauto",
+            "firmware": [
+                "vodafone_smartauto"
+            ],
+            "partnerName": "vodafone_smartauto",
+            "controllable": false,
+            "deleted": false
+        }
+    ],
+    "countries": [
+        {
+            "locale": "de_DE",
+            "name": "Germany",
+            "countryCode": "DE",
+            "callingCode": "49",
+            "serviceId": {
+                "serviceId": "SV_CIOT_VSIM",
+                "packages": [
+                    {
+                        "id": "VSIM_LARGE_PLAN",
+                        "content": "<p>das</p>",
+                        "pricingText1": "VSIM_LARGE_PLAN",
+                        "pricingText2": "",
+                        "oldPricingText": "VSIM_LARGE_PLAN",
+                        "deleted": false,
+                        "purchasable": true,
+                        "type": "global",
+                        "customProperties": {
+                            "CSP_VALUE": "VSIM_XL_DE",
+                            "DEVICE_TYPES": "pet_tracker"
+                        },
+                        "moreInfoUrl": "https://content-yoda.smartlife.vodafo.ne/products/new",
+                        "commercialName": "das",
+                        "isContract": false,
+                        "durationInMonths": 1,
+                        "durationLabel": "montly subscription",
+                        "termsAndConditionsSummary": "termsAndConditionsSummary"
+                    },
+                    {
+                        "id": "VSIM_SMALL_PLAN",
+                        "content": "<p>das</p>",
+                        "pricingText1": "VSIM_SMALL_PLAN",
+                        "pricingText2": "",
+                        "oldPricingText": "VSIM_SMALL_PLAN",
+                        "deleted": false,
+                        "purchasable": true,
+                        "type": "global",
+                        "customProperties": {
+                            "CSP_VALUE": "VSIM_XL_DE",
+                            "DEVICE_TYPES": "pet_tracker"
+                        },
+                        "moreInfoUrl": "https://content-yoda.smartlife.vodafo.ne/products/new",
+                        "commercialName": "das",
+                        "isContract": false,
+                        "durationInMonths": 1,
+                        "durationLabel": "montly subscription",
+                        "termsAndConditionsSummary": "termsAndConditionsSummary"
+                    },
+                    {
+                        "id": "VSIM_EXTRALARGE_PLAN",
+                        "content": "<p>dasd</p>",
+                        "pricingText1": "VSIM_EXTRALARGE_PLAN",
+                        "pricingText2": "",
+                        "oldPricingText": "VSIM_EXTRALARGE_PLAN",
+                        "deleted": false,
+                        "purchasable": true,
+                        "type": "global",
+                        "customProperties": {
+                            "CSP_VALUE": "VSIM_XL_DE",
+                            "DEVICE_TYPES": "video_camera,car_tracker,pet_tracker,photo_camera,general_tracker"
+                        },
+                        "moreInfoUrl": "https://content-yoda.smartlife.vodafo.ne/products/new",
+                        "commercialName": "dasdasas",
+                        "isContract": false,
+                        "durationInMonths": 1,
+                        "durationLabel": "montly subscription",
+                        "termsAndConditionsSummary": "termsAndConditionsSummary"
+                    }
+                ],
+                "paymentPartner": "GROUP_ER"
+            },
+            "status": "ACTIVE",
+            "termsAndConditions": "https://content-yoda.smartlife.vodafo.ne/products/new",
+            "privacyPolicy": "https://content-yoda.smartlife.vodafo.ne/products/new",
+            "version": "3.1.0",
+            "requiresKYC": true,
+            "requiresProfileCompleteness": true,
+            "requiresPaymentExperience": true
+        },
+        {
+            "locale": "es_ES",
+            "name": "Spain",
+            "countryCode": "ES",
+            "callingCode": "34",
+            "serviceId": {
+                "packages": [],
+                "paymentPartner": "GROUP_ER"
+            },
+            "status": "NOT_AVAILABLE",
+            "version": "3.1.0",
+            "requiresKYC": true,
+            "requiresProfileCompleteness": true,
+            "requiresPaymentExperience": true
+        },
+        {
+            "locale": "en_GB",
+            "name": "UK",
+            "countryCode": "GB",
+            "callingCode": "44",
+            "serviceId": {
+                "packages": [],
+                "paymentPartner": "GROUP_ER"
+            },
+            "status": "NOT_AVAILABLE",
+            "version": "3.1.0",
+            "requiresKYC": true,
+            "requiresProfileCompleteness": true,
+            "requiresPaymentExperience": true
+        },
+        {
+            "locale": "nl_NL",
+            "name": "Netherlands",
+            "countryCode": "NL",
+            "callingCode": "31",
+            "serviceId": {
+                "packages": [],
+                "paymentPartner": "GROUP_ER"
+            },
+            "status": "NOT_AVAILABLE",
+            "version": "3.1.0",
+            "requiresKYC": true,
+            "requiresProfileCompleteness": true,
+            "requiresPaymentExperience": true
+        },
+        {
+            "locale": "it_IT",
+            "name": "Italy",
+            "countryCode": "IT",
+            "callingCode": "39",
+            "serviceId": {
+                "packages": [],
+                "paymentPartner": "GROUP_ER"
+            },
+            "status": "NOT_AVAILABLE",
+            "version": "3.1.0",
+            "requiresKYC": true,
+            "requiresProfileCompleteness": true,
+            "requiresPaymentExperience": true
+        },
+        {
+            "locale": "pt_PT",
+            "name": "Portugal",
+            "countryCode": "PT",
+            "callingCode": "351",
+            "serviceId": {
+                "packages": [],
+                "paymentPartner": "GROUP_ER"
+            },
+            "status": "NOT_AVAILABLE",
+            "version": "3.1.0",
+            "requiresKYC": true,
+            "requiresProfileCompleteness": true,
+            "requiresPaymentExperience": true
+        },
+        {
+            "locale": "en_IE",
+            "serviceId": {
+                "packages": [],
+                "addonServices": []
+            },
+            "serviceIds": [],
+            "status": "NOT_AVAILABLE",
+            "requiresKYC": false,
+            "requiresProfileCompleteness": false,
+            "requiresPaymentExperience": true
+        },
+        {
+            "locale": "el_GR",
+            "serviceId": {
+                "packages": [],
+                "addonServices": []
+            },
+            "serviceIds": [],
+            "status": "NOT_AVAILABLE",
+            "requiresKYC": false,
+            "requiresProfileCompleteness": false,
+            "requiresPaymentExperience": true
+        },
+        {
+            "locale": "en_ZA",
+            "serviceId": {
+                "packages": [],
+                "addonServices": []
+            },
+            "serviceIds": [],
+            "status": "NOT_AVAILABLE",
+            "requiresKYC": false,
+            "requiresProfileCompleteness": false,
+            "requiresPaymentExperience": true
+        },
+        {
+            "locale": "is_IS",
+            "serviceId": {
+                "packages": [],
+                "addonServices": []
+            },
+            "serviceIds": [],
+            "status": "NOT_AVAILABLE",
+            "requiresKYC": false,
+            "requiresProfileCompleteness": false,
+            "requiresPaymentExperience": true
+        },
+        {
+            "locale": "en_MY",
+            "serviceId": {
+                "packages": [],
+                "addonServices": []
+            },
+            "serviceIds": [],
+            "status": "NOT_AVAILABLE",
+            "requiresKYC": false,
+            "requiresProfileCompleteness": false,
+            "requiresPaymentExperience": true
+        },
+        {
+            "locale": "ro_RO",
+            "serviceId": {
+                "packages": [],
+                "addonServices": []
+            },
+            "serviceIds": [],
+            "status": "NOT_AVAILABLE",
+            "requiresKYC": false,
+            "requiresProfileCompleteness": false,
+            "requiresPaymentExperience": true
+        },
+        {
+            "locale": "hu_HU",
+            "serviceId": {
+                "packages": [],
+                "addonServices": []
+            },
+            "serviceIds": [],
+            "status": "NOT_AVAILABLE",
+            "requiresKYC": false,
+            "requiresProfileCompleteness": false,
+            "requiresPaymentExperience": true
+        },
+        {
+            "locale": "tr_TR",
+            "serviceId": {
+                "packages": [],
+                "addonServices": []
+            },
+            "serviceIds": [],
+            "status": "NOT_AVAILABLE",
+            "requiresKYC": false,
+            "requiresProfileCompleteness": false,
+            "requiresPaymentExperience": true
+        },
+        {
+            "locale": "cs_CZ",
+            "serviceId": {
+                "packages": [],
+                "addonServices": []
+            },
+            "serviceIds": [],
+            "status": "NOT_AVAILABLE",
+            "requiresKYC": false,
+            "requiresProfileCompleteness": false,
+            "requiresPaymentExperience": true
+        },
+        {
+            "locale": "sq_AL",
+            "serviceId": {
+                "packages": [],
+                "addonServices": []
+            },
+            "serviceIds": [],
+            "status": "NOT_AVAILABLE",
+            "requiresKYC": false,
+            "requiresProfileCompleteness": false,
+            "requiresPaymentExperience": true
+        },
+        {
+            "locale": "fr_FR",
+            "serviceId": {
+                "packages": [],
+                "addonServices": []
+            },
+            "serviceIds": [],
+            "status": "NOT_AVAILABLE",
+            "requiresKYC": false,
+            "requiresProfileCompleteness": false,
+            "requiresPaymentExperience": true
+        }
+    ],
+    "deleted": false,
+    "version": "3.2.0",
+    "deviceUidInput": [
+        {
+            "preference": 1,
+            "input": "QRCode"
+        },
+        {
+            "preference": 2,
+            "input": "manual"
+        }
+    ]
+  }
+  
+}

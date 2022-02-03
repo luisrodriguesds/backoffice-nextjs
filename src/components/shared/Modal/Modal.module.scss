@@ -1,0 +1,35 @@
+.wrapModalAction {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.extraInfos {
+  padding-bottom: 8px;
+  .actions {
+    position: inherit;
+    right: 20px;
+    bottom: 20px;
+    margin-top: 20px;
+  }
+}
+
+.dialogTitle {
+  border-bottom: 1px solid #cecece;
+  h2 {
+    font-family: 'Vodafone Rg' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+  }
+}
+
+.closeButton {
+  height: 20px;
+  float: right;
+  margin-top: 1px;
+  cursor: pointer;
+  margin-left: auto;
+}

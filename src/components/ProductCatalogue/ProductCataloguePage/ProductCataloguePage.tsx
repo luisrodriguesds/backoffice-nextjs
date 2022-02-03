@@ -5,13 +5,14 @@ import style from './ProductCataloguePage.module.scss';
 import ProductCatalogueSortedTables from '../ProductCatalogueSortedTables/ProductCatalogueSortedTables';
 import { useDispatch, useSelector } from 'react-redux';
 import { setCurrentCountryData, setProductsData } from '../../../stores/product-catalogue';
-import { ProductCatalogueServices, ProductsServices } from 'sdk';
+// import { ProductCatalogueServices, ProductsServices } from 'sdk';
 import ProductCatalogueAvaliableProducts from '../ProductCatalogueAvaliableProducts/ProductCatalogueAvaliableProducts';
 import ProductCatalogueHistory from '../ProductCatalogueHistory/ProductCatalogueHistory';
 import Button from '../../shared/Button/Button';
 import VDFToast from '../../shared/VDFToast/VDFToast';
 import VDFErrorMessage from '../../shared/VDFErrorMessage/VDFErrorMessage';
 import usePermission from '../../../hooks/usePermissions';
+import { ProductCatalogueServices, ProductsServices } from '../../../sdk';
 
 interface ProductCataloguePageProps {
   permissionsList: string[];

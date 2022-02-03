@@ -1,0 +1,106 @@
+[
+  {
+    "id": "VSIM_SMALL_PLAN",
+    "content": "<p>VSIM</p>",
+    "pricingText1": "VSIM_SMALL_PLAN",
+    "pricingText2": "",
+    "oldPricingText": "VSIM_SMALL_PLAN",
+    "deleted": false,
+    "purchasable": true,
+    "type": "global",
+    "customProperties": {
+      "CSP_VALUE": "DEV_VELDERLY_DE",
+      "DEVICE_TYPES": "video_camera,x"
+    },
+    "moreInfoUrl": "https://content-yoda.smartlife.vodafo.ne/products/new",
+    "commercialName": "VSIm",
+    "isContract": true,
+    "durationInMonths": 1,
+    "durationLabel": "1",
+    "termsAndConditionsSummary": "<p>aaa</p>",
+    "idx": "_l8anzepvt",
+    "serviceUids": ["tyco"]
+  },
+  {
+    "id": "VSIM_SMALL_PLAN_24MONTHS",
+    "content": "<p>https://test.com</p>",
+    "pricingText1": "VSIM_SMALL_PLAN_24MONTHS",
+    "pricingText2": "",
+    "oldPricingText": "VSIM_SMALL_PLAN_24MONTHS",
+    "deleted": false,
+    "purchasable": true,
+    "type": "global",
+    "customProperties": {
+      "CSP_VALUE": "X_obsolete_CIOT_TEST_90128",
+      "DEVICE_TYPES": "video_camera"
+    },
+    "moreInfoUrl": "https://moreinfo.com",
+    "commercialName": "comm_name",
+    "isContract": false,
+    "durationInMonths": 1,
+    "durationLabel": "month",
+    "termsAndConditionsSummary": "<p>tcsss</p>",
+    "idx": "_itzaqc81j"
+  },
+  {
+    "id": "VSIM_LARGE_PLAN",
+    "content": "<p>V-Sim Tarif Test</p>",
+    "pricingText1": "VSIM_LARGE_PLAN",
+    "pricingText2": "",
+    "oldPricingText": "VSIM_LARGE_PLAN",
+    "deleted": false,
+    "purchasable": true,
+    "type": "global",
+    "customProperties": {
+      "CSP_VALUE": "DEV_VSIM_L_DE",
+      "DEVICE_TYPES": "video_camera"
+    },
+    "moreInfoUrl": "",
+    "commercialName": "V-Sim Tarif Test",
+    "isContract": false,
+    "durationInMonths": 12,
+    "durationLabel": "12 months",
+    "termsAndConditionsSummary": "<p>V-Sim Tarif Test</p>",
+    "idx": "_s5fhj44sd",
+    "serviceUids": ["addonDummyPlugin"]
+  },
+  {
+    "id": "VSIM_EXTRALARGE_PLAN",
+    "content": "<p>VSIM</p>",
+    "pricingText1": "VSIM_EXTRALARGE_PLAN",
+    "pricingText2": "",
+    "oldPricingText": "VSIM_EXTRALARGE_PLAN",
+    "deleted": false,
+    "purchasable": true,
+    "type": "global",
+    "customProperties": {
+      "CSP_VALUE": "DEV_VSIM_XXL_DE",
+      "DEVICE_TYPES": "video_camera"
+    },
+    "moreInfoUrl": "",
+    "commercialName": "VSIM",
+    "isContract": false,
+    "durationInMonths": 12,
+    "durationLabel": "12 months",
+    "termsAndConditionsSummary": "<p>VSIM</p>",
+    "idx": "_vlmhu0zap",
+    "serviceUids": ["vaa"]
+  },
+  {
+    "idx": "_9cred3zbk",
+    "id": "_9cred3zbk",
+    "commercialName": "",
+    "content": "",
+    "deleted": false,
+    "durationInMonths": "",
+    "durationLabel": "",
+    "isContract": false,
+    "moreInfoUrl": "",
+    "oldPricingText": "",
+    "pricingText1": "",
+    "pricingText2": "",
+    "purchasable": false,
+    "termsAndConditionsSummary": "",
+    "type": ""
+  }
+]

@@ -1,0 +1,17 @@
+.errorMessage {
+  display: block;
+  padding-top: 6px;
+  color: #333333;
+  font-family: "Vodafone Rg";
+  font-size: 16px;
+}
+
+.errorDiv {
+  display: flex;
+  align-items: center;
+  img {
+    padding-top: 6px;
+    height: auto;
+    margin-right: 6px;
+  }
+}
