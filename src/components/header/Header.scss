@@ -1,0 +1,19 @@
+.header-react {
+  position: fixed;
+  width: -webkit-fill-available;
+  background: #fff;
+  z-index: 1000;
+  margin-left: 65px;
+  display: flex;
+  justify-content: space-between;
+}
+.sidebar-info-react {
+  padding: 30px 11px;
+}
+
+.sidebar-info-react:hover {
+  cursor: pointer;
+}
+.username-text-react {
+  padding: 25px 30px;
+}

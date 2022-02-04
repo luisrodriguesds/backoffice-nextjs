@@ -33,7 +33,7 @@ class HttpClient {
 
   initHttp() {
     const http = axios.create({
-      baseURL: 'http://localhost:3000' + API_NAMESPACE,
+      baseURL: API_NAMESPACE,
       ...defaultAxiosOptions
     });
 

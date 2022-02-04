@@ -1,0 +1,94 @@
+//@import url(//db.onlinewebfonts.com/c/923c56dc2916dfb8892c056f2f5cde5a?family=Vodafone+Rg);
+
+.menu-container-react {
+  display:flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: fit-content;
+}
+
+.menu-container-react:hover{
+  .menu-text-react {
+    font-weight:bold
+  }
+}
+
+.white-react {
+  background-color: #fff;
+  animation: slide-in 0.5s forwards;
+  -webkit-animation: slide-in 0.5s forwards;
+}
+
+.menu-text-react{  
+  font-size: 18px;
+  color: #333333;
+  padding: 17.5px 20px;
+  font-weight: 100;
+  padding-left:20px;
+  margin:0;
+  width: 234px;
+  height: 100%;
+  z-index: 50;
+  background-color: #fff;
+}
+
+.menu-text-react:hover {
+  cursor: pointer;
+}
+
+.menu-image-react {
+  width: 56px;
+  padding-left: 20px;
+  z-index: 100;
+  background-color: #fff;
+}
+
+.menu-image-react:hover {
+  cursor: pointer;
+}
+
+.selected-react {
+  animation: slide-in 0.5s forwards;
+  -webkit-animation: slide-in 0.5s forwards;
+}
+
+.dismiss-react {
+  animation: slide-out 0.5s forwards;
+  -webkit-animation: slide-out 0.5s forwards;
+}
+
+@keyframes slide-in {
+  0% {
+    -webkit-transform: translateX(-100%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+  }
+}
+
+@-webkit-keyframes slide-in {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slide-out {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@-webkit-keyframes slide-out {
+  0% {
+    -webkit-transform: translateX(0%);
+  }
+  100% {
+    -webkit-transform: translateX(100%);
+  }
+}

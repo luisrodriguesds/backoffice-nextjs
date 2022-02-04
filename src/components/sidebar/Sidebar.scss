@@ -1,0 +1,33 @@
+// body {
+//   margin: 0;
+//   padding:0;
+//   overflow-x: hidden;
+// }
+
+.sidebar-react {
+  position: absolute;
+  width: 350px;
+  height: 100%;
+  min-height: 100vh;
+  top: 0;
+  overflow: visible;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.sidebar-top-react {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px 0 10px 20px;
+  margin: 0;
+  width: 36px;
+}
+
+.sidebar-top-react:hover {
+  cursor: pointer;
+}
+
+

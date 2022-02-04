@@ -1,10 +1,13 @@
 import { NextPage } from "next"
+import Layout from "../../components/Layout/Layout"
 import ProductCataloguePage from "../../components/ProductCatalogue/ProductCataloguePage/ProductCataloguePage"
 
 
 const ProductCatalogueNextPage: NextPage = (props) => {
   return (
-    <ProductCataloguePage permissionsList={[]} />
+    <Layout>
+      <ProductCataloguePage permissionsList={[]} />
+    </Layout>
   )
 }
 
