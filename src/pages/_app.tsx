@@ -8,8 +8,9 @@ import lightTheme from '../styles/theme';
 import { store } from '../stores/store';
 import { Provider } from 'react-redux';
 
-const clientSideEmotionCache = createEmotionCache();
+import "../styles/Global.scss";
 
+const clientSideEmotionCache = createEmotionCache();
 const MyApp = (props: any) => {
   const { Component, emotionCache = clientSideEmotionCache, pageProps } = props;
 
