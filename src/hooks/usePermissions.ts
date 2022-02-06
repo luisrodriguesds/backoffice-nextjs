@@ -6,7 +6,7 @@ function usePermission () {
     return permissionList?.includes(permission);
   }
 
-  function hasDebugFeaturesPermission(email :string) :boolean {
+  function hasDebugFeaturesPermission(email: string) :boolean {
     return debuggerUsers && debuggerUsers.length > 0 && debuggerUsers.includes(email);
   }
   

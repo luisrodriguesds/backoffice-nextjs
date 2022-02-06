@@ -26,12 +26,12 @@ const MenuItem: React.FC<MenuItemProps> = ({ menuText, menuIcon, animationClass,
 
   return (
     <Link passHref href={`/${route}`}>
-    <div className={style.menuContainerReact}>
+    <a className={style.menuContainerReact}>
       <img style={{ backgroundColor: `${active ? "#dfdfdf" : ""}` }} onClick={() => { setShowText(false); }} onMouseEnter={() => { setShowText(true); }}
         className={style.menuImageReact} src={menuIcon} />
       <h1 style={{ backgroundColor: `${active ? "#dfdfdf" : ""}`, fontWeight: `${active ? "bold" : "normal"}` }}
         onClick={() => { setShowText(false); }} onMouseEnter={() => { setShowText(true); }} className={`${style.menuTextReact} ${animationClass}`} >{menuText}</h1>
-    </div>
+    </a>
     </Link>
   );
 };

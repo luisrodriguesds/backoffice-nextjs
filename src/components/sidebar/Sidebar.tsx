@@ -20,7 +20,7 @@ interface SidebarProps {
   permissionsList?: string[];
   children?: ReactNode;
   eventHandlers?: {
-    routeTo(identifier: string)
+    routeTo: (identifier: string) => void
   }
 }
 

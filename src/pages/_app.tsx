@@ -9,6 +9,7 @@ import { store } from '../stores/store';
 import { Provider } from 'react-redux';
 
 import "../styles/Global.scss";
+import Layout from '../components/Layout/Layout';
 
 const clientSideEmotionCache = createEmotionCache();
 const MyApp = (props: any) => {
@@ -19,7 +20,9 @@ const MyApp = (props: any) => {
       <ThemeProvider theme={lightTheme}>
         <CssBaseline />
         <Provider store={store}>
-          <Component {...pageProps} />
+          <Layout>
+            <Component {...pageProps} />
+          </Layout>
         </Provider>
       </ThemeProvider>
     </CacheProvider>

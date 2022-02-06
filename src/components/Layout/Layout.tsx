@@ -1,5 +1,9 @@
 
+import axios from "axios";
 import { NextPage } from "next";
+import { useRouter } from "next/router";
+import { useEffect } from "react";
+import { http } from "../../sdk/config/http-client";
 import Header from "../header/Header";
 import HelloWorld from "../hello-world";
 import Sidebar from "../sidebar/Sidebar";
@@ -66,6 +70,27 @@ const eventHandlers = {
 
 
 const Layout: NextPage = ({ children }) => {
+  const router = useRouter()
+
+  async function mainLoad(){
+    try {
+      await http.get('/users/authenticated')
+    } catch (error) {
+      console.log(error)
+      try {
+        const api = axios.create()  
+        const sso = await api.get('/api/freeway/sso-url')
+        window.location = sso.data
+      } catch (error) {
+        console.log(error, 'error sso')
+      }
+    }
+  }
+  
+  useEffect(() => {
+    mainLoad()
+  }, [router.asPath])
+
   return (
     <div className={styles.main}>
       <Header username="DevAppLocal" eventHandlers={eventHandlers} />
